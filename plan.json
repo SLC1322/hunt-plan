@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "generated": "2026-10-24T18:05:00-04:00",
+  "hunts": [
+    {
+      "date": "2026-10-25",
+      "label": "Sunday, Oct 25",
+      "subtitle": "The swamp, the fog and the long bright moon. Quiet feet, now.",
+      "rules": {
+        "title": "Sunday is not Saturday",
+        "items": [
+          "Firearm hunting on private land is legal on Sunday. You must **stop by 9:30 am**. Plan to be unloaded at 9:00.",
+          "All migratory birds are closed on Sunday: ducks, doves, rails, woodcock, crows. Skip them.",
+          "Hunter orange is required (gun deer season, Oct 17 to Jan 1). Wear hat and vest."
+        ],
+        "note": "My sources for the Sunday rules are 2015 to 2018 era plus one newer article. Confirm in the NCWRC Regulations Digest."
+      },
+      "conditions": {
+        "source": "Source: National Weather Service point forecast, issued 2:29 pm Saturday. Sun and moon times from sunrise-sunset.org.",
+        "items": [
+          "**Walk-in, 4:30 am:** 47°F. **At 9 am:** 52°F.",
+          "**Wind:** NE at 5 mph until 8 am. NE at 6 mph at 9 am.",
+          "**Precipitation:** 0%. Cloud cover 25 to 35%.",
+          "**Fog:** humidity is 100% from midnight to 9 am and the temperature equals the dew point. Expect ground fog and heavy dew.",
+          "**Sunrise:** 7:23 am. **Legal light:** 6:53 am.",
+          "**Moon:** 99.8% full. The true full moon is at 12:11 am Monday. Moonset is 6:45 am, eight minutes before legal light."
+        ],
+        "meaning": "**What it likely means (my assumption, not proven):** a bright moon lets deer feed late at night, so first-light movement may be thin. Wet leaves are quiet, which helps a slow stalk.",
+        "hours": [
+          { "hour": "4 am", "temp": 47, "wind": "NE 5", "cloud": 24 },
+          { "hour": "5 am", "temp": 47, "wind": "NE 5", "cloud": 31 },
+          { "hour": "6 am", "temp": 47, "wind": "NE 5", "cloud": 34 },
+          { "hour": "7 am", "temp": 47, "wind": "NE 5", "cloud": 34 },
+          { "hour": "8 am", "temp": 47, "wind": "NE 5", "cloud": 30 },
+          { "hour": "9 am", "temp": 52, "wind": "NE 6", "cloud": 24 }
+        ],
+        "hours_note": "Rain chance is 0% for every hour. The forecast can change. Check it again before you leave."
+      },
+      "wind": { "from_deg": 45, "mph": 5, "label": "from the NE at 5 mph" },
+      "safe_arc": { "from_deg": 315, "to_deg": 90 },
+      "in_season": [
+        "**Deer, either sex** (gun season, day 9). Pre-rut. Scrapes and rubs are fresh.",
+        "**Gray and fox squirrel.**",
+        "**Rabbit.**",
+        "**Raccoon and opossum** (opportunity only).",
+        { "text": "Awareness only: bobcat and bear", "tip": "Bobcat is open. Bear is closed until Nov 14. You are not hunting either. Carry the slugs for defense only." }
+      ],
+      "plan": {
+        "title": "The plan: a new sit on the west half of the swamp edge",
+        "why": "**Why here:** the NE wind blows in your face from the water side. Your scent goes SW, away from the swamp. Deer that walk the swamp edge from the east cannot smell you. Learning the land is priority 1, and the west half is your biggest blank spot.",
+        "steps": [
+          { "time": "4:30", "text": "Walk in on the main trail NE to the Junction (where the trail meets the swamp edge). Red light low. Wet leaves are quiet." },
+          { "time": "5:10", "text": "At the Junction, turn WEST along the swamp edge, off trail. Walk slowly. Test each step." },
+          { "time": "5:25", "text": "Pick the sit: a trunk wider than your shoulders, 60 to 100 paces west of the Junction, 20 to 40 yards south of the water. Face NE or E. Cushion down, back to the trunk." },
+          { "time": "5:45", "text": "Load at the sit. Muzzle points N or E. Safety on." },
+          { "time": "6:45", "text": "The moon is down. It stays dark for 8 more minutes. Stay still." },
+          { "time": "6:53", "text": "Legal light. Watch east along the swamp edge, then north across the water. Deer return from the SE pasture to the swamp thickets around now." },
+          { "time": "8:00", "text": "No deer? Still-hunt EAST toward the Junction. Take 10 steps, then stand 3 to 5 minutes. You walk into the wind. That is the best direction." },
+          { "time": "8:15", "text": "At the Junction, swap 00 for #4. Take the loop trail south for squirrel. Check the feed bins for rabbit. Shots north, east or west only." },
+          { "time": "8:55", "text": "Walk out. Unload at the yard edge. Done well before the 9:30 cutoff." }
+        ]
+      },
+      "load": {
+        "items": [
+          "**In the gun:** 00 buckshot in the magazine. Modified choke. Safety on.",
+          "**Left pocket:** spare 00 buckshot.",
+          "**Right pocket:** #4 and #7.5 birdshot (swap in at about 8:15).",
+          "**Zipped pocket:** 2 slugs. Bear defense only.",
+          "**.22 rifle:** not tomorrow.",
+          "**Hunter orange:** hat and vest on.",
+          "**Dry layer, cushion, knife, gloves** for field dressing."
+        ],
+        "warnings": [
+          "Never shoot a deer with birdshot.",
+          "Never shoot buckshot or slugs without the ground behind the target."
+        ]
+      },
+      "animals": [
+        {
+          "name": "Deer",
+          "paragraphs": [
+            "**Local:** common. They bed in the swamp thickets and feed in the SE pasture and the mast areas.",
+            "**Tomorrow:** a full moon means thin first light. Your best windows are 6:53 to 8:00 and again about 8:30 to 9:00 when the air warms.",
+            "**Shot:** broadside or quartering away only. 30 yards maximum with 00. Aim behind the front shoulder, middle of the body."
+          ],
+          "details": [
+            {
+              "title": "Tip: cold air drains downhill in fog",
+              "paragraphs": [
+                "Your land slopes from south (high) to north (low). In fog and light wind, cold air flows downhill. Your scent may creep NORTH toward the water for the first hour, even with a NE wind. The forecast wind may be wrong at ground level.",
+                "Test: tie a 12-inch thread to your gun barrel, or watch how the fog drifts. Trust the thread over the forecast."
+              ],
+              "note": "This is my reasoning from the slope. I did not measure it. The thread test checks it for you."
+            },
+            {
+              "title": "Technique: the free \"urrp\" (voice contact grunt)",
+              "steps": [
+                "Wait until a buck walks away from you at 50 yards or more.",
+                "Say one soft, low \"urrp\" in your throat. It lasts about 1 second.",
+                "Do it once only. Then stay still."
+              ]
+            }
+          ],
+          "after": [
+            { "small": "Report any harvest as the NCWRC Regulations Digest describes." }
+          ]
+        },
+        {
+          "name": "Squirrel",
+          "paragraphs": [
+            "**Local:** gray squirrels seen often. Fox squirrel is possible.",
+            "**Tomorrow:** heavy dew and fog slow them. Expect activity after 8:15 when the sun dries the bark. (Assumption.)",
+            "**Shot:** head and neck. #4 to 30 yards. #7.5 to 25 yards."
+          ],
+          "details": [
+            {
+              "title": "Technique: sit and scan at a feed tree",
+              "steps": [
+                "Find a tree with fresh cuttings on the ground below it.",
+                "Sit still for 15 minutes. Listen for pieces falling.",
+                "A squirrel on the far side of a trunk will slide around it. Stay still. Let it come back to the near side."
+              ]
+            }
+          ],
+          "after": [
+            "**Tip:** shoot only with a trunk, the ground or water behind the squirrel. Never toward the house."
+          ]
+        },
+        {
+          "name": "Rabbit",
+          "paragraphs": [
+            "**Local:** likely at the feed bins and the thick edges."
+          ],
+          "details": [
+            {
+              "title": "Technique: zig-zag, stop-start",
+              "paragraphs": [
+                "In cold dew, rabbits sit tight. Walk a zig-zag line. Stop every 5 steps. Look low for a dark eye and an ear."
+              ]
+            }
+          ],
+          "after": [
+            "**Tip:** a running rabbit often stops at 30 to 40 yards and looks back. Wait for the stop, then shoot. Shots north, east or west only.",
+            "**Safety:** wear gloves when you handle it. Check the liver (see the Skill tab)."
+          ]
+        },
+        {
+          "name": "Raccoon and opossum",
+          "paragraphs": [
+            "Opportunity only. A dawn den return near the bins is possible. The same shot rules apply."
+          ]
+        }
+      ],
+      "skill": {
+        "title": "Skill of the week: field dressing squirrel and rabbit",
+        "principle": "**Core principle:** cool the meat fast and keep it clean. Do this within the hour. Tomorrow reaches the mid 60s by noon.",
+        "sections": [
+          {
+            "title": "Squirrel",
+            "steps": [
+              "Put on gloves.",
+              "Cut across the back, through the skin only, at the middle.",
+              "Hook two fingers under each side. Pull the skin apart: one half toward the head, one half toward the tail.",
+              "Cut off the head, feet and tail.",
+              "Slit the belly, no deeper than the skin. Remove the guts.",
+              "Wipe it. Do not rinse yet. Bag it cool."
+            ]
+          },
+          {
+            "title": "Rabbit",
+            "steps": [
+              "Put on gloves.",
+              "Pinch the skin at the back. Cut a small slit. Pull the skin off like a sleeve, toward the feet and the head.",
+              "Cut off the feet and the head.",
+              "Slit the belly. Remove the guts.",
+              "Check the liver. Spots or white dots mean DO NOT EAT.",
+              "Cool it within 2 hours."
+            ]
+          }
+        ],
+        "details": [
+          {
+            "title": "Tap to open: why the liver check matters",
+            "paragraphs": [
+              "Rabbits can carry a bacterial disease called tularemia. A spotted liver is a warning sign. Gloves reduce the risk when you handle the animal. Cook all rabbit meat to 165°F inside."
+            ]
+          }
+        ],
+        "checkpoint": "**Checkpoint:** the next time you take one, say each step out loud before you cut. If you cannot say the next step, stop and re-read this tab."
+      },
+      "land": {
+        "intro": "Map the west half of the swamp edge on your walk out.",
+        "steps": [
+          "Pace from the Junction to the west boundary.",
+          "Mark every trail, track in mud, rub and scrape.",
+          "Pick the 2 best sit trees for a NE wind and 1 for a NW wind.",
+          "Run the thread test twice: once at 6:30 and once at 8:30. Note which way the fog moves.",
+          "Send a \"note:\" message with what you found. Next week's plan will use it."
+        ]
+      },
+      "safety": [
+        "**Shooting arc:** north, northeast, east, northwest. NEVER south. The house is SW, the field is SE, the neighbor is south.",
+        "Buckshot needs the ground behind it.",
+        "Hunter orange on.",
+        "**Hard stop for firearms: 9:30 am.**",
+        "Fog and wet ground make the swamp edge slick. Watch for cypress knees in the dark.",
+        "47°F with wet clothes feels cold. Bring a dry layer. Snakes are unlikely at this temperature."
+      ],
+      "regs": "Check the NCWRC Regulations Digest for Sunday hunting, deer reporting and bag limits.",
+      "gaps": "no hunting entries in your Daily Notes this week. I could not confirm the current Sunday rule for migratory birds on ncwildlife.gov, so I skipped them."
+    }
+  ]
+}

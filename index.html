@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Hunting Gameplan</title>
+<style>
+/* =====================================================================
+   EDITABLE VALUES  (safe to change: colors and sizes only)
+   Everything BELOW this block can be left alone.
+   ===================================================================== */
+:root {
+  --page-bg:      #1f2a1d;   /* page background (dark forest green)            */
+  --card-bg:      #2b3a28;   /* background of cards and panels                 */
+  --text-color:   #f1ecd9;   /* main text color                                */
+  --muted-color:  #b9b79c;   /* small, secondary text                          */
+  --accent:       #e0a63b;   /* tab highlight, headings, buttons               */
+  --safe-color:   #6fbf73;   /* "safe shooting arc" color                      */
+  --danger-color: #e2574c;   /* "never shoot here" and warning color           */
+  --base-font:    18px;      /* text size: raise to 20px for bigger text       */
+}
+/* ===================== END OF EDITABLE VALUES ======================== */
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; padding: 0 0 48px;
+  background: var(--page-bg); color: var(--text-color);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--base-font); line-height: 1.5;
+}
+/* Night (red-light) mode: keeps your eyes dark-adapted. */
+body.night {
+  --page-bg: #120000; --card-bg: #1e0505; --text-color: #ff6a5c;
+  --muted-color: #b04438; --accent: #ff3b2e; --safe-color: #c8372d; --danger-color: #ff0000;
+}
+header { padding: 18px 16px 8px; max-width: 760px; margin: 0 auto; }
+h1 { margin: 0; font-size: 1.5em; color: var(--accent); line-height: 1.2; }
+.sub { margin: 4px 0 0; color: var(--muted-color); font-size: 0.85em; }
+.topbar { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+button.tool {
+  background: transparent; color: var(--accent); border: 1px solid var(--accent);
+  border-radius: 6px; padding: 6px 12px; font: inherit; font-size: 0.8em; cursor: pointer;
+}
+button.tool[aria-pressed="true"] { background: var(--accent); color: var(--page-bg); }
+.updated { margin: 8px 0 0; font-size: 0.75em; color: var(--muted-color); }
+#banner, #status { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+.banner { background: var(--card-bg); border-left: 5px solid var(--danger-color);
+  border-radius: 8px; padding: 8px 12px; margin: 8px 0; font-size: 0.85em; }
+nav { position: sticky; top: 0; z-index: 5; background: var(--page-bg);
+  border-bottom: 1px solid var(--card-bg); }
+.tabs { display: flex; gap: 4px; overflow-x: auto; padding: 8px 12px; max-width: 760px; margin: 0 auto; }
+.tabs button {
+  flex: 0 0 auto; background: var(--card-bg); color: var(--text-color);
+  border: 1px solid transparent; border-radius: 8px; padding: 8px 12px;
+  font: inherit; font-size: 0.85em; cursor: pointer; white-space: nowrap;
+}
+.tabs button[aria-selected="true"] { border-color: var(--accent); color: var(--accent); font-weight: bold; }
+main { max-width: 760px; margin: 0 auto; padding: 8px 16px; }
+body.js .panel { display: none; }
+body.js .panel.active { display: block; }
+h2 { color: var(--accent); font-size: 1.2em; margin: 18px 0 6px; }
+h3 { color: var(--accent); font-size: 1em; margin: 14px 0 4px; }
+p { margin: 6px 0 10px; }
+ul, ol { margin: 4px 0 10px; padding-left: 22px; }
+li { margin: 3px 0; }
+.card { background: var(--card-bg); border-radius: 10px; padding: 12px 14px; margin: 12px 0; }
+.card > :first-child { margin-top: 0; }
+.card > :last-child { margin-bottom: 0; }
+.warn { border-left: 5px solid var(--danger-color); }
+.ok { border-left: 5px solid var(--safe-color); }
+.small { font-size: 0.8em; color: var(--muted-color); }
+table { width: 100%; border-collapse: collapse; font-size: 0.85em; margin: 8px 0; }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--page-bg); }
+th { color: var(--accent); }
+details { background: var(--page-bg); border: 1px solid var(--muted-color); border-radius: 8px;
+  padding: 6px 10px; margin: 8px 0; }
+summary { cursor: pointer; color: var(--accent); font-size: 0.9em; padding: 4px 0; }
+.hoverreveal { position: relative; border-bottom: 1px dotted var(--accent); cursor: help; }
+.hoverreveal .tip { display: none; background: var(--page-bg); border: 1px solid var(--accent);
+  border-radius: 8px; padding: 8px 10px; font-size: 0.8em; margin-top: 6px; }
+.hoverreveal:hover .tip, .hoverreveal.open .tip, .hoverreveal:focus .tip { display: block; }
+.time { color: var(--accent); font-weight: bold; white-space: nowrap; }
+.step { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--page-bg); }
+.step:last-child { border-bottom: 0; }
+.step .time { min-width: 4.2em; }
+label.check { display: block; padding: 6px 0; }
+input[type=checkbox] { transform: scale(1.3); margin-right: 10px; }
+svg text { fill: var(--text-color); font-family: Georgia, serif; }
+.svg-safe { fill: var(--safe-color); fill-opacity: 0.35; stroke: var(--safe-color); stroke-width: 2; }
+.svg-bad  { fill: var(--danger-color); fill-opacity: 0.30; stroke: var(--danger-color); stroke-width: 2; }
+.svg-line { stroke: var(--muted-color); fill: none; stroke-width: 1.5; }
+.daybar { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+footer { max-width: 760px; margin: 18px auto 0; padding: 0 16px; color: var(--muted-color); font-size: 0.75em; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="title">Hunting Gameplan</h1>
+  <p class="sub" id="subtitle">Loading the plan...</p>
+  <div class="daybar" id="daybar"></div>
+  <div class="topbar">
+    <button class="tool" id="nightBtn" type="button" aria-pressed="false">Night mode (red)</button>
+    <button class="tool" id="refreshBtn" type="button">Refresh plan</button>
+  </div>
+  <p class="updated" id="updated"></p>
+</header>
+
+<div id="banner"></div>
+<div id="status"></div>
+
+<nav>
+  <div class="tabs" role="tablist" id="tabs">
+    <button type="button" role="tab" data-tab="start" aria-selected="true">Start here</button>
+    <button type="button" role="tab" data-tab="plan" aria-selected="false">Plan</button>
+    <button type="button" role="tab" data-tab="load" aria-selected="false">Load card</button>
+    <button type="button" role="tab" data-tab="animals" aria-selected="false">Animals</button>
+    <button type="button" role="tab" data-tab="skill" aria-selected="false">Skill</button>
+    <button type="button" role="tab" data-tab="land" aria-selected="false">Land &amp; safety</button>
+  </div>
+</nav>
+
+<main>
+  <section class="panel active" id="panel-start" role="tabpanel"></section>
+  <section class="panel" id="panel-plan" role="tabpanel"></section>
+  <section class="panel" id="panel-load" role="tabpanel"></section>
+  <section class="panel" id="panel-animals" role="tabpanel"></section>
+  <section class="panel" id="panel-skill" role="tabpanel"></section>
+  <section class="panel" id="panel-land" role="tabpanel"></section>
+</main>
+
+<footer id="footer"></footer>
+<noscript><p style="padding:16px">This page needs JavaScript to show the plan.</p></noscript>
+
+<script>
+/* =====================================================================
+   Everything below here draws the page from plan.json.
+   You can leave all of it alone. To change the words of a plan,
+   edit plan.json, not this file.
+   ===================================================================== */
+(function () {
+  'use strict';
+
+  var PLAN_FILE = 'plan.json';
+  var STALE_HOURS = 30;          // warn if the forecast is older than this
+  var state = { data: null, huntIndex: 0, tab: 'start' };
+
+  /* ---------- small safe helpers (all text goes in as text, never as HTML) ---------- */
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined && text !== null) e.textContent = String(text);
+    return e;
+  }
+  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+  function isArr(x) { return Object.prototype.toString.call(x) === '[object Array]'; }
+
+  // **bold** markers become <b> elements. Nothing else is interpreted.
+  function rich(parent, text) {
+    var parts = String(text).split('**');
+    for (var i = 0; i < parts.length; i++) {
+      if (parts[i] === '') continue;
+      if (i % 2 === 1) { var b = el('b', null, parts[i]); parent.appendChild(b); }
+      else parent.appendChild(document.createTextNode(parts[i]));
+    }
+  }
+  function para(parent, entry) {
+    if (entry && typeof entry === 'object' && entry.small) {
+      var s = el('p', 'small'); rich(s, entry.small); parent.appendChild(s);
+    } else {
+      var p = el('p'); rich(p, entry); parent.appendChild(p);
+    }
+  }
+  function paras(parent, list) { if (isArr(list)) for (var i = 0; i < list.length; i++) para(parent, list[i]); }
+  function list(parent, tag, items) {
+    var l = el(tag);
+    if (isArr(items)) for (var i = 0; i < items.length; i++) { var li = el('li'); rich(li, items[i]); l.appendChild(li); }
+    parent.appendChild(l);
+    return l;
+  }
+  function details(parent, d) {
+    var box = el('details');
+    box.appendChild(el('summary', null, d.title || 'More'));
+    paras(box, d.paragraphs);
+    if (isArr(d.steps) && d.steps.length) list(box, 'ol', d.steps);
+    if (d.note) para(box, { small: d.note });
+    parent.appendChild(box);
+  }
+  function hoverTip(parent, label, tip) {
+    var s = el('span', 'hoverreveal'); s.tabIndex = 0;
+    s.appendChild(document.createTextNode(label + ' '));
+    s.appendChild(el('span', 'tip', tip));
+    s.addEventListener('click', function () { s.classList.toggle('open'); });
+    parent.appendChild(s);
+  }
+
+  /* ---------- compass diagram ---------- */
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  function svgEl(name, attrs) {
+    var e = document.createElementNS(SVGNS, name);
+    for (var k in attrs) if (Object.prototype.hasOwnProperty.call(attrs, k)) e.setAttribute(k, String(attrs[k]));
+    return e;
+  }
+  function pt(r, deg) { var a = deg * Math.PI / 180; return [100 + r * Math.sin(a), 100 - r * Math.cos(a)]; }
+  function wedge(from, to, cls) {
+    var sweep = (((to - from) % 360) + 360) % 360;
+    if (sweep === 0) return null;
+    var p1 = pt(80, from), p2 = pt(80, to);
+    var d = 'M100,100 L' + p1[0].toFixed(2) + ',' + p1[1].toFixed(2) +
+            ' A80,80 0 ' + (sweep > 180 ? 1 : 0) + ' 1 ' + p2[0].toFixed(2) + ',' + p2[1].toFixed(2) + ' Z';
+    return svgEl('path', { 'class': cls, d: d });
+  }
+  function compass(parent, hunt) {
+    var svg = svgEl('svg', { viewBox: '0 0 200 215', width: '100%', role: 'img',
+      'aria-label': 'Compass showing the safe shooting arc, the no-shoot south half, and the wind direction.' });
+    svg.style.maxWidth = '340px'; svg.style.display = 'block'; svg.style.margin = '6px auto';
+    var bad = wedge(90, 270, 'svg-bad'); if (bad) svg.appendChild(bad);
+    var arc = hunt.safe_arc;
+    if (arc && typeof arc.from_deg === 'number' && typeof arc.to_deg === 'number') {
+      var safe = wedge(arc.from_deg, arc.to_deg, 'svg-safe'); if (safe) svg.appendChild(safe);
+    }
+    svg.appendChild(svgEl('circle', { 'class': 'svg-line', cx: 100, cy: 100, r: 80 }));
+    svg.appendChild(svgEl('circle', { cx: 100, cy: 100, r: 4, style: 'fill:var(--accent)' }));
+    var labels = [['N', 100, 12], ['E', 192, 104], ['W', 8, 104], ['S', 100, 204],
+                  ['NEVER SHOOT', 100, 168], ['house SW', 48, 130], ['field SE', 152, 130]];
+    for (var i = 0; i < labels.length; i++) {
+      var t = svgEl('text', { x: labels[i][1], y: labels[i][2], 'text-anchor': 'middle',
+        'font-size': i < 4 ? 12 : (i === 4 ? 11 : 9) });
+      t.textContent = labels[i][0]; svg.appendChild(t);
+    }
+    var w = hunt.wind;
+    if (w && typeof w.from_deg === 'number') {
+      var a = pt(74, w.from_deg), b = pt(30, w.from_deg);
+      var dx = b[0] - a[0], dy = b[1] - a[1], len = Math.sqrt(dx * dx + dy * dy);
+      var ux = dx / len, uy = dy / len, px = -uy, py = ux;
+      svg.appendChild(svgEl('line', { x1: a[0].toFixed(2), y1: a[1].toFixed(2), x2: b[0].toFixed(2), y2: b[1].toFixed(2),
+        style: 'stroke:var(--accent);stroke-width:2.5' }));
+      var h1 = [b[0] - ux * 10 + px * 5, b[1] - uy * 10 + py * 5];
+      var h2 = [b[0] - ux * 10 - px * 5, b[1] - uy * 10 - py * 5];
+      svg.appendChild(svgEl('polygon', { points: b[0].toFixed(2) + ',' + b[1].toFixed(2) + ' ' +
+        h1[0].toFixed(2) + ',' + h1[1].toFixed(2) + ' ' + h2[0].toFixed(2) + ',' + h2[1].toFixed(2),
+        style: 'fill:var(--accent)' }));
+    }
+    parent.appendChild(svg);
+    var cap = (w && w.label ? 'Wind: ' + w.label + '. ' : '') +
+      'Green is the safe arc. Red is the south half: never shoot there.';
+    parent.appendChild(el('p', 'small', cap));
+  }
+
+  /* ---------- panels ---------- */
+  function renderStart(h, box) {
+    var i;
+    if (h.rules) {
+      var rc = el('div', 'card warn');
+      rc.appendChild(el('h2', null, h.rules.title || 'Rules'));
+      list(rc, 'ol', h.rules.items);
+      if (h.rules.note) para(rc, { small: h.rules.note });
+      box.appendChild(rc);
+    }
+    var c = h.conditions || {};
+    box.appendChild(el('h2', null, 'Conditions'));
+    if (c.source) para(box, c.source);
+    list(box, 'ul', c.items);
+    if (c.meaning) para(box, c.meaning);
+    if (isArr(c.hours) && c.hours.length) {
+      var d = el('details');
+      d.appendChild(el('summary', null, 'Tap to open: hour-by-hour table'));
+      var tbl = el('table'), hr = el('tr');
+      var heads = ['Hour', 'Temp °F', 'Wind', 'Cloud %'];
+      for (i = 0; i < heads.length; i++) hr.appendChild(el('th', null, heads[i]));
+      tbl.appendChild(hr);
+      for (i = 0; i < c.hours.length; i++) {
+        var r = c.hours[i], tr = el('tr');
+        tr.appendChild(el('td', null, r.hour)); tr.appendChild(el('td', null, r.temp));
+        tr.appendChild(el('td', null, r.wind)); tr.appendChild(el('td', null, r.cloud));
+        tbl.appendChild(tr);
+      }
+      d.appendChild(tbl);
+      if (c.hours_note) para(d, { small: c.hours_note });
+      box.appendChild(d);
+    }
+    box.appendChild(el('h2', null, 'In season (shotgun-legal)'));
+    var ul = el('ul');
+    var items = isArr(h.in_season) ? h.in_season : [];
+    for (i = 0; i < items.length; i++) {
+      var li = el('li'), it = items[i];
+      if (it && typeof it === 'object') hoverTip(li, it.text || '', it.tip || ''); else rich(li, it);
+      ul.appendChild(li);
+    }
+    box.appendChild(ul);
+  }
+
+  function renderPlan(h, box) {
+    var p = h.plan || {};
+    box.appendChild(el('h2', null, p.title || 'The plan'));
+    if (p.why) { var w = el('div', 'card ok'); para(w, p.why); box.appendChild(w); }
+    var card = el('div', 'card'), steps = isArr(p.steps) ? p.steps : [];
+    for (var i = 0; i < steps.length; i++) {
+      var s = el('div', 'step');
+      s.appendChild(el('span', 'time', steps[i].time));
+      var t = el('span'); rich(t, steps[i].text); s.appendChild(t);
+      card.appendChild(s);
+    }
+    box.appendChild(card);
+    var d = el('details');
+    d.appendChild(el('summary', null, 'Tap to open: shooting-arc diagram for the sit'));
+    compass(d, h);
+    box.appendChild(d);
+  }
+
+  function renderLoad(h, box) {
+    var l = h.load || {};
+    box.appendChild(el('h2', null, 'Load card'));
+    var card = el('div', 'card'), items = isArr(l.items) ? l.items : [];
+    for (var i = 0; i < items.length; i++) {
+      var lab = el('label', 'check'), cb = el('input');
+      cb.type = 'checkbox'; lab.appendChild(cb);
+      var sp = el('span'); rich(sp, items[i]); lab.appendChild(sp);
+      card.appendChild(lab);
+    }
+    box.appendChild(card);
+    if (isArr(l.warnings) && l.warnings.length) {
+      var wc = el('div', 'card warn'); list(wc, 'ul', l.warnings); box.appendChild(wc);
+    }
+    box.appendChild(el('p', 'small', 'The check boxes reset when you close the page. They are only for your walk through the gear.'));
+  }
+
+  function renderAnimals(h, box) {
+    box.appendChild(el('h2', null, 'Animal cards'));
+    box.appendChild(el('p', 'small', 'Tap a line to open the how-to.'));
+    var a = isArr(h.animals) ? h.animals : [];
+    for (var i = 0; i < a.length; i++) {
+      var c = el('div', 'card');
+      c.appendChild(el('h3', null, a[i].name));
+      paras(c, a[i].paragraphs);
+      if (isArr(a[i].details)) for (var j = 0; j < a[i].details.length; j++) details(c, a[i].details[j]);
+      paras(c, a[i].after);
+      box.appendChild(c);
+    }
+  }
+
+  function renderSkill(h, box) {
+    var s = h.skill || {};
+    box.appendChild(el('h2', null, s.title || 'Skill of the week'));
+    if (s.principle) { var pc = el('div', 'card ok'); para(pc, s.principle); box.appendChild(pc); }
+    var secs = isArr(s.sections) ? s.sections : [];
+    for (var i = 0; i < secs.length; i++) {
+      box.appendChild(el('h3', null, secs[i].title));
+      list(box, 'ol', secs[i].steps);
+    }
+    if (isArr(s.details)) for (var j = 0; j < s.details.length; j++) details(box, s.details[j]);
+    if (s.checkpoint) { var cc = el('div', 'card'); para(cc, s.checkpoint); box.appendChild(cc); }
+  }
+
+  function renderLand(h, box) {
+    var l = h.land || {};
+    box.appendChild(el('h2', null, 'Learning-the-land task'));
+    var c = el('div', 'card');
+    if (l.intro) para(c, l.intro);
+    list(c, 'ol', l.steps);
+    box.appendChild(c);
+    box.appendChild(el('h2', null, 'Safety'));
+    var s = el('div', 'card warn'); list(s, 'ul', h.safety); box.appendChild(s);
+    if (h.regs) { box.appendChild(el('h2', null, 'Regulations')); para(box, h.regs); }
+  }
+
+  /* ---------- page-level logic ---------- */
+  function todayStr() {
+    var d = new Date(), m = d.getMonth() + 1, day = d.getDate();
+    return d.getFullYear() + '-' + (m < 10 ? '0' : '') + m + '-' + (day < 10 ? '0' : '') + day;
+  }
+  function upcoming(hunts) {
+    var t = todayStr(), out = [];
+    for (var i = 0; i < hunts.length; i++) if (hunts[i].date >= t) out.push(i);
+    return out;
+  }
+  function showTab(name) {
+    state.tab = name;
+    var panels = document.querySelectorAll('.panel'), tabs = document.querySelectorAll('#tabs button');
+    for (var i = 0; i < panels.length; i++) panels[i].classList.toggle('active', panels[i].id === 'panel-' + name);
+    for (var j = 0; j < tabs.length; j++) tabs[j].setAttribute('aria-selected', tabs[j].getAttribute('data-tab') === name ? 'true' : 'false');
+  }
+  function setBanner(msgs) {
+    var b = document.getElementById('banner'); clear(b);
+    for (var i = 0; i < msgs.length; i++) b.appendChild(el('div', 'banner', msgs[i]));
+  }
+  function fmtWhen(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
+    try {
+      return d.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+    } catch (e) { return d.toString(); }
+  }
+
+  function render() {
+    var data = state.data, hunts = data.hunts;
+    var up = upcoming(hunts), banners = [];
+    var idx = state.huntIndex;
+    if (idx < 0 || idx >= hunts.length) idx = up.length ? up[0] : hunts.length - 1;
+    state.huntIndex = idx;
+    var h = hunts[idx];
+
+    document.getElementById('title').textContent = (h.label || h.date) + ' — Gameplan';
+    document.getElementById('subtitle').textContent = h.subtitle || '';
+    document.title = 'Gameplan ' + (h.label || h.date);
+
+    var bar = document.getElementById('daybar'); clear(bar);
+    var show = up.length ? up : [idx];
+    if (show.length > 1) {
+      for (var k = 0; k < show.length; k++) (function (n) {
+        var b = el('button', 'tool', hunts[n].label || hunts[n].date);
+        b.type = 'button'; b.setAttribute('aria-pressed', n === idx ? 'true' : 'false');
+        b.addEventListener('click', function () { state.huntIndex = n; render(); });
+        bar.appendChild(b);
+      })(show[k]);
+    }
+
+    var up0 = up.indexOf(idx) !== -1;
+    if (!up0) banners.push('This plan is for ' + (h.label || h.date) + ', which has passed. The next plan arrives after the next update. Tap Refresh plan to check.');
+    var gen = Date.parse(data.generated), hoursOld = isNaN(gen) ? null : (Date.now() - gen) / 36e5;
+    if (up0 && hoursOld !== null && hoursOld > STALE_HOURS) {
+      banners.push('The forecast in this plan is about ' + Math.round(hoursOld) + ' hours old. Check the weather before you go.');
+    }
+    setBanner(banners);
+    document.getElementById('updated').textContent = data.generated ? 'Plan updated ' + fmtWhen(data.generated) : '';
+
+    var map = { start: renderStart, plan: renderPlan, load: renderLoad, animals: renderAnimals, skill: renderSkill, land: renderLand };
+    for (var name in map) if (Object.prototype.hasOwnProperty.call(map, name)) {
+      var box = document.getElementById('panel-' + name); clear(box);
+      map[name](h, box);
+    }
+    var f = document.getElementById('footer'); clear(f);
+    if (h.gaps) f.appendChild(el('p', null, 'Data gaps: ' + h.gaps));
+    showTab(state.tab);
+  }
+
+  function setStatus(msg, withRetry) {
+    var s = document.getElementById('status'); clear(s);
+    if (!msg) return;
+    var box = el('div', 'banner'); box.appendChild(el('span', null, msg + ' '));
+    if (withRetry) {
+      var b = el('button', 'tool', 'Try again'); b.type = 'button';
+      b.addEventListener('click', function () { load(); });
+      box.appendChild(b);
+    }
+    s.appendChild(box);
+  }
+
+  function load() {
+    setStatus('Loading the plan...', false);
+    var url = PLAN_FILE + '?t=' + Date.now();   // the ?t= value defeats stale caches
+    fetch(url, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (data) {
+      if (!data || !isArr(data.hunts) || !data.hunts.length) throw new Error('plan file has no hunts');
+      state.data = data; state.huntIndex = -1;
+      setStatus('', false);
+      render();
+    }).catch(function (e) {
+      if (state.data) setStatus('Could not refresh (' + e.message + '). Showing the last plan.', true);
+      else setStatus('Could not load the plan (' + e.message + ').', true);
+      document.getElementById('subtitle').textContent = state.data ? document.getElementById('subtitle').textContent : '';
+    });
+  }
+
+  /* ---------- wiring ---------- */
+  document.body.classList.add('js');
+  var tabs = document.querySelectorAll('#tabs button');
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].addEventListener('click', function () { showTab(this.getAttribute('data-tab')); window.scrollTo(0, 0); });
+  }
+  var nightBtn = document.getElementById('nightBtn');
+  function setNight(on) {
+    document.body.classList.toggle('night', on);
+    nightBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    try { localStorage.setItem('huntNight', on ? '1' : '0'); } catch (e) { /* storage may be blocked; ignore */ }
+  }
+  nightBtn.addEventListener('click', function () { setNight(!document.body.classList.contains('night')); });
+  try { if (localStorage.getItem('huntNight') === '1') setNight(true); } catch (e) { /* ignore */ }
+  document.getElementById('refreshBtn').addEventListener('click', function () { load(); });
+  load();
+})();
+</script>
+</body>
+</html>
