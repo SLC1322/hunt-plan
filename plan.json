@@ -1,39 +1,78 @@
 {
   "schema": 1,
-  "generated": "2026-10-29T20:14:23-04:00",
+  "generated": "2026-10-30T17:53:41-04:00",
   "hunts": [
     {
       "date": "2026-10-31",
       "label": "Saturday, Oct 31",
-      "subtitle": "Halloween morning. The only thing in the woods that should spook you is a good shot chance.",
+      "subtitle": "Halloween dawn: cool, still, and the only thing you want to hear is a leaf that does not belong.",
       "rules": {
-        "title": "Clocks fall back tomorrow night",
+        "title": "Clocks fall back after this hunt",
         "items": [
           "Clocks go back one hour at **2:00 am Sunday, Nov 1**. Saturday morning is still daylight time. Every time on this page is the clock you will see Saturday.",
-          "Sunday morning, sunrise is about 6:30 am and legal light about 6:00 am by the new clock. Your body will think it is an hour later.",
-          "Hunter orange is required (gun deer season, Oct 17 to Jan 1). Hat and vest on."
+          "Sunday sunrise will be near 6:30 am and legal light near 6:00 am on the new clock.",
+          "Hunter orange is required for firearm hunters (Oct 17 to Jan 1). Hat and vest on."
         ],
-        "note": "Set your alarm for Saturday only. Check your phone shows the right time Sunday before you plan anything."
+        "note": "Set your alarm for Saturday only. Check that your phone shows the right time Sunday morning."
       },
       "conditions": {
-        "source": "Source: National Weather Service point forecast, issued 8:00 pm Thursday. Sun times from sunrise-sunset.org.",
+        "source": "Source: National Weather Service point forecast, updated 3:23 pm Friday. Sun times from sunrise-sunset.org.",
         "items": [
-          "**Walk-in, 5:30 am:** low near 49°F. Mostly clear. Calm early, then a light north breeze.",
-          "**Wind later in the day:** northeast at 6 to 10 mph. **High:** near 66°F.",
-          "**Precipitation:** none in the forecast.",
+          "**Walk-in, 5:45 am:** about 51°F. Mostly clear. North wind near 5 mph.",
+          "**9 am:** about 52°F. North wind 7 mph, turning northeast and rising to 9 or 10 mph by midday. High near 63°F.",
+          "**Precipitation:** none (0% all morning). Humidity 74 to 83%, so expect damp leaves.",
           "**Sunrise:** 7:29 am. **Legal light:** 6:59 am.",
-          "**Moon:** waning gibbous, about 58% lit. Past full, still bright."
+          "**Moon:** waning gibbous, about 58% lit at the end of the day."
         ],
-        "meaning": "**What it likely means (my assumption, not proven):** a clear cool morning with a light breeze is quiet and good for scent control. A bright late moon may keep deer feeding late, so movement may run later than usual, 7:15 to 9:00. Sign should be fresh and the leaves are dry, so every step is loud. Move slowly."
+        "meaning": "**What it likely means (my assumption, not proven):** a steady north breeze and a cool clear dawn favor deer moving early, 6:59 to 8:00, with a second push as it warms near 9. Damp leaves are quieter than dry ones, which helps you walk in. A north wind carries your scent south, behind you, away from the swamp and the woods to the north.",
+        "hours": [
+          {
+            "hour": "4 am",
+            "temp": 52,
+            "wind": "N 5",
+            "cloud": 20
+          },
+          {
+            "hour": "5 am",
+            "temp": 51,
+            "wind": "N 5",
+            "cloud": 23
+          },
+          {
+            "hour": "6 am",
+            "temp": 50,
+            "wind": "N 5",
+            "cloud": 21
+          },
+          {
+            "hour": "7 am",
+            "temp": 48,
+            "wind": "N 5",
+            "cloud": 20
+          },
+          {
+            "hour": "8 am",
+            "temp": 49,
+            "wind": "N 5",
+            "cloud": 20
+          },
+          {
+            "hour": "9 am",
+            "temp": 52,
+            "wind": "N 7",
+            "cloud": 21
+          }
+        ],
+        "hours_note": "No gusts forecast. Precipitation chance is 0% for every hour. Coldest point is about 7 am."
       },
       "wind": {
-        "from_deg": 45,
-        "mph": 6,
-        "label": "from the N to NE, light, about 5 to 8 mph (estimate for dawn)"
+        "from_deg": 0,
+        "mph": 5,
+        "label": "from the N, light, about 5 mph, rising to 7 by 9 am"
       },
       "safe_arc": {
         "from_deg": 330,
-        "to_deg": 90
+        "to_deg": 60
       },
       "in_season": [
         "**Deer, either sex** (gun season, day 15). Pre-rut: bucks are starting to cruise.",
@@ -42,57 +81,57 @@
         "**Raccoon and opossum** (opportunity only).",
         {
           "text": "**Snipe** (open Oct 27 to Feb 27)",
-          "tip": "Needs your HIP number and the 3-shell plug. Check the Digest for the shot rule before you shoot one. If unsure, just look."
+          "tip": "Needs your HIP number and the 3-shell plug. Confirm the shot rule in the Digest before you shoot one. If unsure, just look."
         },
         {
           "text": "**Crow** (Saturday is an open day)",
-          "tip": "Opportunity only. Shoot one only if a crow commits over your sit."
+          "tip": "Opportunity only. Take one only if it commits over your sit and the backstop is safe."
         },
         {
           "text": "Awareness only: rails, gallinules, bobcat and bear",
-          "tip": "Rails and gallinules are open but the swamp is poor habitat. Bobcat is open. Bear is closed until Nov 14. You are not hunting any of these. Carry the slugs for defense only."
+          "tip": "Rails are open but the swamp is poor habitat. Bobcat is open. Bear is closed until Nov 14. You are not hunting these. Slugs are for defense only."
         },
-        "Ducks, dove and woodcock are closed today. Ducks and dove reopen Nov 7."
+        "Ducks and dove are closed today. Both reopen Nov 7. Woodcock is not planned for today."
       ],
       "plan": {
-        "title": "The plan: a new sit at the middle pinch of the main trail",
-        "why": "**Why here:** deer cross the property from the SE pasture side toward the swamp thickets, and the center is where the main trail and the loop trail come closest. A light N to NE wind sends your scent SW and S, behind you, away from deer coming from the east and north. This also teaches you the middle of the land, which you have not sat yet. **Timing:** legal light is 6:59, so you want to be seated by about 6:15. That means leaving the yard at 5:30, not 4:30. A long wait in the cold only makes you fidget.",
+        "title": "The plan: the Lower Pines funnel, on a north wind",
+        "why": "**Why here:** a north wind is the cleanest wind you have had. Sit on the main trail about halfway between the yard and the Junction, in the tallest pines, 30 yards EAST of the trail, facing N and NE. Your scent drifts south and west, away from the swamp and away from deer coming down from the north. You have not sat this stretch yet, so it also teaches you the land. **Timing:** legal light is 6:59. You want to be seated about 45 minutes before, around 6:15. The walk is short, so leave the yard at 5:45, not 4:30. A long wait in the cold only makes you fidget.",
         "steps": [
           {
-            "time": "5:30",
-            "text": "Leave the yard on the main trail, heading NE. Red light low. Dry leaves are loud. Walk slowly: three steps, listen, three steps."
-          },
-          {
-            "time": "5:50",
-            "text": "Find the pinch: the place in the middle of the woods where the main trail and the loop trail pass closest. Step off the trail to the WEST about 25 yards. Pick a pine or holly trunk wider than your shoulders."
+            "time": "5:45",
+            "text": "Leave the yard on the main trail, heading NE. Red light low. Three steps, listen, three steps. Damp leaves help you."
           },
           {
             "time": "6:00",
-            "text": "Sit with your back to the trunk. Cushion down. Face NE. Your view should cover the trail pinch and the woods north and east. Check there is no house, field or yard behind any lane you may shoot."
+            "text": "Find the funnel: the stretch where tall pines crowd the main trail and a holly thicket sits to the west. Step off the trail 30 yards to the EAST. Pick a trunk wider than your shoulders."
           },
           {
             "time": "6:10",
-            "text": "Load at the sit. Muzzle points N or E. Safety on. Thread test: tie a 12-inch thread on the barrel to see the real wind."
+            "text": "Sit with your back to the trunk. Face N and NE. Check what is behind every lane before you load. No house, no field, nothing south or southwest."
+          },
+          {
+            "time": "6:15",
+            "text": "Load at the sit, muzzle pointing N. Safety on. Tie a 12-inch thread to the barrel to see the real wind."
           },
           {
             "time": "6:59",
-            "text": "Legal light. Watch east and north. Deer move along the trail edges. Look for ears and legs, not whole deer."
+            "text": "Legal light. Watch the north and northeast first, then the trail. Look for ears, legs and a flicking tail, not whole deer."
           },
           {
             "time": "8:15",
-            "text": "No deer? Stay. Bucks cruise late in the pre-rut. Count to 100 slowly twice before you move."
+            "text": "No deer? Stay. Count to 100 slowly twice before you move. The warming air may start a second push."
           },
           {
             "time": "8:30",
-            "text": "Swap 00 for #4. Walk the loop trail east then south for squirrel. Squirrels feed on the ground after the sun dries the leaves."
+            "text": "Swap 00 for #4. Walk the loop trail, east then north, for squirrel and rabbit. Shoot N, NE, E or W only."
           },
           {
-            "time": "8:45",
-            "text": "Build the brush blind (see the Skill tab) at the sit or a thick edge near it. Practice only. Shoot nothing while you build."
+            "time": "8:50",
+            "text": "Practice the carry-out route (see the Skill tab) as you walk back toward the yard."
           },
           {
             "time": "9:00",
-            "text": "Walk out. Unload at the yard edge. Log what you saw with a \"note:\" message."
+            "text": "Unload at the yard edge. Log what you saw with a \"note:\" message."
           }
         ]
       },
@@ -102,9 +141,9 @@
           "**Left pocket:** spare 00 buckshot only.",
           "**Right pocket:** #4 and #7.5 birdshot. Swap in at about 8:30.",
           "**Zipped pocket:** 2 slugs. Bear defense only.",
-          "**.22 rifle:** not today.",
+          "**.22 LR:** not today.",
           "**Hunter orange:** hat and vest on.",
-          "**Also carry:** knife, hatchet (for the blind), gloves, 12-inch thread, dry layer, cushion."
+          "**Also carry:** knife, hatchet, gloves, 12-inch thread, 10 feet of cord, dry layer, cushion."
         ],
         "warnings": [
           "Never shoot a deer with birdshot.",
@@ -116,174 +155,158 @@
         {
           "name": "Deer",
           "paragraphs": [
-            "**Local:** common. They bed in the swamp thickets and feed in the SE pasture and the mast areas.",
-            "**Today:** pre-rut. Bucks start looking for does. Best windows (assumption): 7:00 to 8:00 and again 8:30 to 9:00 as the air warms.",
-            "**Shot:** broadside or quartering away only. 30 yards maximum with 00. Aim behind the front shoulder, middle of the body. Shoot only to the N, NE, E or W. Never south."
+            "**Local:** common. They bed in the swamp thickets and feed toward the pasture side and the mast trees.",
+            "**Today:** pre-rut with a cool north breeze. Best window (assumption): 6:59 to 8:00, then 8:30 to 9:00.",
+            "**Shot:** broadside or quartering away only. 30 yards maximum with 00. Aim behind the front shoulder, middle of the body. Shoot only N, NE, E or W. Never south."
           ],
           "details": [
             {
-              "title": "Skill: read the tail and ears before you shoot",
-              "paragraphs": [
-                "**Relaxed:** tail down or lazy swish, head low, ears forward and moving. You have time. Wait for the best angle.",
-                "**Alert:** head up, ears locked on you, tail slightly raised. Freeze. Do not blink if you can help it. Wait it out.",
-                "**Danger:** a foot stomp, a snort, the white tail flagged high. The deer is gone. Do not take a running shot with 00.",
-                "A walking deer pauses when it hears something odd. That pause is your shot window, if the angle is right."
-              ],
-              "note": "A doe often leads. Hold five minutes after she passes. A buck may be tracking her with his nose down."
-            },
-            {
-              "title": "Technique: wait for the second deer",
+              "title": "Technique: let the woods tell you",
               "steps": [
-                "When one deer passes, stay still and count to 60.",
-                "Deer travel in groups. A second or third is often behind.",
-                "Do not move your gun until the lead deer is fully out of sight."
-              ]
+                "Squirrels and jays scold at a walking deer or a hawk. A sudden scolding from one direction means look there slowly.",
+                "A sudden silence in birds near you means something is moving. Stop moving and scan.",
+                "Move only your eyes first, then your head over 10 seconds.",
+                "If a deer is walking, shoot only when it pauses with a good angle."
+              ],
+              "note": "A scolding squirrel that faces away from you is looking at something else. Follow its line of sight."
             }
           ],
           "after": [
-            "**Tip:** you see ears flick before you see a deer. Scan the same lane slowly, left to right, every minute.",
-            "**Tip:** report any harvest as the NCWRC Regulations Digest describes."
+            "**Tip:** check the thread at 6:15 and 8:15. If the wind swings to come from the east or west, your scent now drifts toward the lanes, so hold still and be ready to shift.",
+            "**Tip:** report any harvest as the NCWRC Regulations Digest requires."
           ]
         },
         {
           "name": "Squirrel",
           "paragraphs": [
-            "**Local:** gray squirrels seen often. Fox squirrel is possible.",
-            "**Today:** after 8:30 the sun dries the bark and leaves. Squirrels drop to the ground to feed. (Assumption.)",
+            "**Local:** gray squirrels are seen often. Fox squirrel is possible.",
+            "**Today:** damp leaves and a cool dawn. After 8:30 the sun warms the east-facing trunks and squirrels come down to feed. (Assumption.)",
             "**Shot:** head and neck. #4 to 30 yards. #7.5 to 25 yards."
           ],
           "details": [
             {
-              "title": "Technique: hear the rhythm",
+              "title": "Technique: freeze after the alarm",
               "steps": [
-                "In dry leaves, stop every few steps and listen.",
-                "A squirrel makes a short, steady rustle: dig, pause, dig.",
-                "A deer or a wind gust is random and heavier. Wait for the rhythm.",
-                "Look 20 to 30 yards toward the sound, low, near trunks and fallen limbs."
+                "If a squirrel spots you and barks, freeze against a trunk.",
+                "Stay still 10 minutes with your gun low.",
+                "Curiosity brings it back. It often returns to the same limb.",
+                "Shoot only with a trunk or the ground behind it. Never toward the house."
               ]
             }
           ],
           "after": [
-            "**Tip:** shoot only with a trunk, the ground or water behind the squirrel. Never toward the house."
+            "**Tip:** look for piles of cut nut husks at a trunk base. That is a feeding tree. Mark it for next week."
           ]
         },
         {
           "name": "Rabbit",
           "paragraphs": [
-            "**Local:** likely at the feed bins and the thick edges."
+            "**Local:** likely at the feed bins and along thick edges.",
+            "**Shot:** #4 to 30 yards, N, NE, E or W only."
           ],
           "details": [
             {
-              "title": "Call: the squeak stop",
+              "title": "Technique: the stop-and-wait edge walk",
               "steps": [
-                "When a rabbit runs, make a sharp squeak: suck air hard through pursed lips against the back of your hand.",
-                "A running rabbit often stops and sits up to look.",
-                "Shoot while it is stopped, N, E or W only."
+                "Walk the thick edge into the low sun. Take three steps, stop for ten seconds.",
+                "A rabbit sitting tight gets nervous when you pause close by and often bolts.",
+                "Look for a dark eye and the shape of an ear, low in the grass.",
+                "Shoot when it is clear of cover and has stopped, not while it zigzags."
               ]
             }
           ],
           "after": [
-            "**Safety:** wear gloves when you handle it. Check the liver (last week's Skill tab)."
+            "**Safety:** wear gloves when you handle it. Check the liver for spots."
           ]
         },
         {
           "name": "Raccoon and opossum",
           "paragraphs": [
-            "Opportunity only. A dawn den return near the bins is possible. The same shot rules apply. Do not shoot toward the house or field."
+            "Opportunity only. A dawn return to a den near the bins is possible. Same shot rules. Never toward the house or field."
           ]
         },
         {
           "name": "Snipe",
           "paragraphs": [
             "**Local:** possible on soft mud near the beaver lodge. A low-odds extra.",
-            "**Rule:** needs your HIP number and the 3-shell plug. Check the Digest for the shot rule first. If you cannot confirm it, skip the shot."
+            "**Rule:** needs your HIP number and the 3-shell plug. Confirm the shot rule in the Digest first. If you cannot confirm it, skip the shot."
           ],
           "details": [
             {
               "title": "Technique: look before you walk",
               "steps": [
-                "From the edge, scan the wet mud for a long bill probing.",
-                "Snipe freeze, then burst up with a raspy \"scaipe\" call.",
-                "Mark where it flushes and do not shoot toward the south."
+                "Scan wet mud from the edge for a long bill probing.",
+                "Snipe burst up with a raspy call and zigzag.",
+                "Do not shoot toward the south."
               ]
             }
           ],
           "after": [
-            "**Tip:** only check on the walk out, after 8:30. Do not walk the mud at the sit time."
+            "**Tip:** check only on the walk out after 8:30."
           ]
         },
         {
           "name": "Crow",
           "paragraphs": [
             "**Local:** common flyers over the pasture and swamp. Saturday is an open day.",
-            "**Today:** opportunity only. Stand still against a trunk."
-          ],
-          "details": [
-            {
-              "title": "Technique: shoot the committing bird",
-              "steps": [
-                "Crows flare at movement. Keep your face down until a bird is within range.",
-                "Shoot one that is gliding in with its wings cupped, not one passing high.",
-                "#4 shot, 30 yards or less."
-              ]
-            }
+            "**Today:** opportunity only. Stay still against your trunk and shoot only a bird that commits close overhead with a safe backstop."
           ]
         }
       ],
       "skill": {
-        "title": "Skill of the week: build a ten-minute brush blind",
-        "principle": "**Core principle:** break up your outline and hide your movement. You do not need a stand or a blind kit. You need a solid background behind you and cover in front. Use only dead, fallen material. Do not cut live trees.",
+        "title": "Skill of the week: plan the carry-out before you ever shoot",
+        "principle": "**Core principle:** a deer is heavy and the warm hours are short. Decide the drag route and what you carry before the shot. It is the same as sign reading: use the land you already know.",
         "sections": [
           {
-            "title": "Build it",
+            "title": "Plan the route (do this today)",
             "steps": [
-              "Pick a spot where a thick trunk or a wall of brush sits directly behind you. Never sit in the open with sky behind you.",
-              "Decide your lanes first: N, NE and E (or W). Clear a lane about 2 yards wide at head and shoulder height. Leave the ground in front intact for a backstop.",
-              "Gather dead limbs, pine boughs and leafy branches. Choose pieces 4 to 6 feet long.",
-              "Lean them upright, stuck into the ground, in a half circle on the SOUTH and WEST sides, about 3 feet away from you. This hides you from the side and rear.",
-              "Leave the front lanes open, with a few low branches so your legs are hidden.",
-              "Add loose branches overhead only if there is no tree above you.",
-              "Sit. Look out of each lane. Move your arms and gun. Trim anything that blocks you or snags the barrel."
+              "From your sit, walk the easiest path to the main trail. Count the steps.",
+              "Note any ditch, fallen log, or thick brush on that path. Pick a way around.",
+              "Downhill is easier. The land slopes toward the swamp, so a drag toward the yard is uphill. Plan rests every 50 yards.",
+              "Cut about 10 feet of cord now and keep it in your pocket. Tie it around the front legs or the neck for a head-first drag.",
+              "Always drag head first, antlers or neck toward you. The hair lies flat and the body slides."
             ]
           },
           {
-            "title": "Check it",
+            "title": "After the shot (read this once)",
             "steps": [
-              "Walk 30 yards away and look back. Can you see a human shape? If so, add cover at that height.",
-              "Make sure no lane points toward the house (SW) or the field (SE) or the south."
+              "Wait with the gun down for 30 minutes. Mark the spot where the deer stood.",
+              "Follow the blood trail from last week's Skill tab. Do not rush.",
+              "Field dress it first (see the earlier Skill tab). Start cooling the meat within one hour.",
+              "Check the Digest for how and when to report the harvest."
             ]
           }
         ],
         "details": [
           {
-            "title": "Tap to open: why the cover goes on the sides and back",
+            "title": "Tap to open: why plan before the shot",
             "paragraphs": [
-              "Deer see movement far better than shape. A blind that hides your arms and your head turns lets you shift slowly without being seen. It also gives you a place to rest your elbows. Build it on the walk out today, so next week it is ready before you sit."
+              "Excited hunters forget details. If the route is already in your head, you can focus on the meat. In warm weather, hours matter. Walking the route once today, without a deer, costs nothing."
             ]
           }
         ],
-        "checkpoint": "**Checkpoint:** next week, sit in it before dawn and test it. Tell me with a \"note:\" message if the lanes worked."
+        "checkpoint": "**Checkpoint:** on the walk out, count how many steps it is from your sit to the yard. Send it in a \"note:\" message."
       },
       "land": {
-        "intro": "Learn the middle of the property. Make a simple map on the walk out.",
+        "intro": "Learn the Lower Pines stretch of the main trail. Make notes on the walk out.",
         "steps": [
-          "Draw a rough map on paper: yard, main trail, Junction, loop trail, feed bins, beaver lodge, thickest pine.",
-          "Pace the distance from the pinch to the Junction and from the pinch to the bins. Write the numbers on the map.",
-          "Mark every track or rub within 50 yards of the pinch.",
-          "Run the thread test at your sit at 6:15 and 8:15. Note which way the thread points.",
+          "Count your steps from the yard to your sit tree, and from the sit to the Junction.",
+          "Look for deer tracks crossing the main trail near your sit. Note which way they point.",
+          "Look at the ground under any big tree for cut husks, shells, or droppings. Note which trees.",
+          "Run the thread test at 6:15 and 8:15. Write down which way it points.",
           "Send a \"note:\" message with what you found. Next week's plan will use it."
         ]
       },
       "safety": [
-        "**Shooting arc:** north, northeast, east, northwest. NEVER south. The house is SW, the field is SE, the neighbor is south.",
+        "**Shooting arc:** north and northeast. Never beyond east or west. NEVER south. The house is SW, the field is SE, the neighbor is south.",
         "Buckshot and slugs need the ground behind them.",
         "Hunter orange on. Hat and vest.",
-        "Cold at dawn, near 49°F. Bring a dry layer and gloves. Do not let your hands go numb on the gun.",
-        "Dry leaves and stumps are loud and can hide holes. Walk in the dark with the red light and watch your footing.",
-        "Bear and fox are in the area. Back away from any cub. Slugs are for defense only."
+        "Cool at dawn, about 50°F. Bring a dry layer and gloves. Do not let numb hands handle the gun.",
+        "Walk in the dark with the red light. Watch for roots, holes and stumps.",
+        "Bear and fox are in the area. Slugs are for defense only."
       ],
       "regs": "Check the NCWRC Regulations Digest for deer reporting, bag limits, snipe and crow rules.",
-      "gaps": "no hunting entries in your Daily Notes this week. The point forecast gives no hour-by-hour table for Saturday, so I left the hourly chart out. I could not find the Saturday moonrise or moonset. I could not confirm the shot-type rule for snipe, so it is marked check-first."
+      "gaps": "no hunting entries in your Daily Notes this week. I could not find Saturday moonrise or moonset times. I could not confirm the shot-type rule for snipe or the woodcock dates, so those are marked check-first."
     }
   ]
 }
