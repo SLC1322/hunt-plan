@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-07T17:47:37-05:00",
+  "generated": "2026-11-07T18:01:38-05:00",
   "hunts": [
     {
       "date": "2026-11-08",
@@ -16,15 +16,16 @@
         "note": "Confirm seasons, shooting hours and the Sunday rules in the NCWRC Regulations Digest before you go. The clocks already changed on Nov 1, so the times here are what your clock shows."
       },
       "conditions": {
-        "source": "Source: commercial weather service forecasts (the National Weather Service point forecast could not be read this run). Sun times from a published sun table.",
+        "source": "Source: hourly forecasts from commercial weather services (4 and 5 am from FOX Weather, 6 am onward from The Weather Channel). The National Weather Service point forecast could not be read. Sun times from a published sun table.",
         "items": [
           "**Walk-in, about 5:15 am:** around 40°F. Wind from the west-northwest at about 1 mph, so nearly still. Partly cloudy. Humidity 85 to 87%.",
-          "**9 am:** no hourly figure was available. The day is forecast mainly sunny, wind west to west-southwest 5 to 10 mph, high near 64°F.",
-          "**Precipitation:** dry. About 5 to 6% shown for the early hours.",
+          "**9 am:** about 49°F, mostly sunny. The day is forecast sunny, wind west to west-southwest 5 to 10 mph, high near 63°F around 2 pm.",
+          "**Warm-up:** 39°F at 6 and 7 am (the coldest point, right at legal light), 44°F at 8 am, 49°F at 9 am. Cloudy-to-partly-cloudy at 6 and 7, then clear and sunny by 8.",
+          "**Precipitation:** dry. 6% at 6 and 7 am, 4% at 8 am, 2% at 9 am.",
           "**Sunrise:** 6:36 am. **Legal light:** 6:06 am (sunrise minus 30 minutes).",
           "**Moon:** new moon, about 3% lit. Dark sky. A thin sliver may rise near 5 am."
         ],
-        "meaning": "**What it likely means (my assumption, not proven):** a cold, clear, calm start. Squirrels often hold in the nest until the sun warms the pines, so expect the best activity from about 7:15 on. Rabbits sit in sun-warmed edges once the light hits. Calm air means they hear you long before they smell you.",
+        "meaning": "**What it likely means (my assumption, not proven):** a cold, clear, calm start, 39°F at legal light, warming about 10 degrees by 9 am. Squirrels often hold in the nest until the sun warms the pines, so expect the best activity from about 7:15 on, and more as it warms past 44°F at 8. Rabbits sit in sun-warmed edges once the light hits. Calm air means they hear you long before they smell you.",
         "hours": [
           {
             "hour": "4 am",
@@ -39,7 +40,7 @@
             "cloud": 39
           }
         ],
-        "hours_note": "Only 4 and 5 am could be read. The 6 to 9 am hours were not available, so none are shown. No gust figures were listed. Trust your thread over this table."
+        "hours_note": "Table rows show only 4 and 5 am, the hours with wind and cloud figures. For 6 to 9 am the source gave temperatures only: 39, 39, 44 and 49°F. No wind, cloud or gust figures were listed for those hours. Trust your thread over this table."
       },
       "wind": {
         "from_deg": 292,
@@ -233,12 +234,12 @@
         "**Shooting arc:** north-northwest, north and north-northeast. Never beyond east or west. NEVER south. The house is SW, the field is SE, the neighbor is south.",
         "Birdshot and .22 need a trunk or the ground behind the target. Do not shoot a squirrel against the sky toward the house.",
         "Hunter orange on, hat and vest. The hard stop is 9:30 am. Be unloaded and out by 9:00.",
-        "Cold start, about 40°F. Wear a dry layer and keep your hands warm so your trigger finger works. Wet leaves and roots are slick, so walk slowly with the red light.",
+        "Cold start, 39°F at legal light, warming to about 49°F by 9 am. Wear a dry layer and keep your hands warm so your trigger finger works. Wet leaves and roots are slick, so walk slowly with the red light.",
         "Knife and gloves for cleaning. Cut away from your hand. Wash up afterward.",
         "Bear and fox are in the area. Bear season opens Nov 14, and you are not hunting it. Slugs are for defense only."
       ],
       "regs": "Check the NCWRC Regulations Digest for season dates, Sunday hunting rules and bag limits for squirrel, rabbit, raccoon and opossum.",
-      "gaps": "No hunting entries in your Daily Notes this week. The National Weather Service point forecast and two other forecast pages could not be read this run. Only the 4 and 5 am figures and the daily summary were found, so there is no 6 to 9 am table, no 9 am temperature and no gust figures. One source gave different Sunday lows, 38 and 43°F. Legal light is calculated from sunrise. I do not know if a cone-scale pile exists on the main trail, so the plan tells you how to find one and gives the holly cluster as a backup. The Digest was not checked directly."
+      "gaps": "No hunting entries in your Daily Notes this week. The National Weather Service point forecast could not be read. The 4 and 5 am figures came from one forecast page. The 6 to 9 am temperatures and rain chances came from a screenshot of another forecast app. Wind, cloud cover and gusts for 6 to 9 am were not available, so the wind is the daily forecast (west to west-southwest 5 to 10 mph) and not an hourly figure. Legal light is calculated from sunrise. I do not know if a cone-scale pile exists on the main trail, so the plan tells you how to find one and gives the holly cluster as a backup. The Digest was not checked directly."
     }
   ]
 }
