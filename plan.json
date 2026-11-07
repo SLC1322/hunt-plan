@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-07T18:01:38-05:00",
+  "generated": "2026-11-07T18:08:00-05:00",
   "hunts": [
     {
       "date": "2026-11-08",
@@ -19,13 +19,14 @@
         "source": "Source: hourly forecasts from commercial weather services (4 and 5 am from FOX Weather, 6 am onward from The Weather Channel). The National Weather Service point forecast could not be read. Sun times from a published sun table.",
         "items": [
           "**Walk-in, about 5:15 am:** around 40°F. Wind from the west-northwest at about 1 mph, so nearly still. Partly cloudy. Humidity 85 to 87%.",
-          "**9 am:** about 49°F, mostly sunny. The day is forecast sunny, wind west to west-southwest 5 to 10 mph, high near 63°F around 2 pm.",
-          "**Warm-up:** 39°F at 6 and 7 am (the coldest point, right at legal light), 44°F at 8 am, 49°F at 9 am. Cloudy-to-partly-cloudy at 6 and 7, then clear and sunny by 8.",
+          "**9 am:** about 49°F, mostly sunny. Wind from the west at 3 mph. Humidity 72%. High near 63°F around 2 pm.",
+          "**Warm-up:** 39°F at 6 and 7 am (the coldest point, right at legal light), 44°F at 8 am, 49°F at 9 am. Partly cloudy at 6 and 7 (about 31% cloud), sunny at 8 (8%), mostly sunny at 9 (25%).",
+          "**Wind:** from the west all morning and light. 1 mph at 6 and 7 am, 2 mph at 8, 3 mph at 9. The daily text says 5 to 10 mph, but that is for later in the day.",
           "**Precipitation:** dry. 6% at 6 and 7 am, 4% at 8 am, 2% at 9 am.",
           "**Sunrise:** 6:36 am. **Legal light:** 6:06 am (sunrise minus 30 minutes).",
           "**Moon:** new moon, about 3% lit. Dark sky. A thin sliver may rise near 5 am."
         ],
-        "meaning": "**What it likely means (my assumption, not proven):** a cold, clear, calm start, 39°F at legal light, warming about 10 degrees by 9 am. Squirrels often hold in the nest until the sun warms the pines, so expect the best activity from about 7:15 on, and more as it warms past 44°F at 8. Rabbits sit in sun-warmed edges once the light hits. Calm air means they hear you long before they smell you.",
+        "meaning": "**What it likely means (my assumption, not proven):** a cold, clear, calm start, 39°F at legal light, warming about 10 degrees by 9 am. Squirrels often hold in the nest until the sun warms the pines, so expect the best activity from about 7:15 on, and more as it warms past 44°F at 8. Rabbits sit in sun-warmed edges once the light hits. Wind stays under 4 mph through 9 am, so they hear you long before they smell you.",
         "hours": [
           {
             "hour": "4 am",
@@ -38,14 +39,38 @@
             "temp": 40,
             "wind": "WNW 1",
             "cloud": 39
+          },
+          {
+            "hour": "6 am",
+            "temp": 39,
+            "wind": "W 1",
+            "cloud": 32
+          },
+          {
+            "hour": "7 am",
+            "temp": 39,
+            "wind": "W 1",
+            "cloud": 31
+          },
+          {
+            "hour": "8 am",
+            "temp": 44,
+            "wind": "W 2",
+            "cloud": 8
+          },
+          {
+            "hour": "9 am",
+            "temp": 49,
+            "wind": "W 3",
+            "cloud": 25
           }
         ],
-        "hours_note": "Table rows show only 4 and 5 am, the hours with wind and cloud figures. For 6 to 9 am the source gave temperatures only: 39, 39, 44 and 49°F. No wind, cloud or gust figures were listed for those hours. Trust your thread over this table."
+        "hours_note": "4 and 5 am are from one forecast page, 6 to 9 am from a second. No gust figures were listed. Humidity is 89 to 90% at 6 and 7 am (dew on everything), 83% at 8 and 72% at 9. Coldest point is 6 to 7 am. Trust your thread over this table."
       },
       "wind": {
-        "from_deg": 292,
+        "from_deg": 275,
         "mph": 1,
-        "label": "from the west-northwest, near calm at the walk-in, then west to west-southwest 5 to 10 mph later (assumption)"
+        "label": "from the west, 1 mph at the walk-in and at legal light, 2 mph at 8 am, 3 mph at 9 am"
       },
       "safe_arc": {
         "from_deg": 300,
@@ -64,7 +89,7 @@
       ],
       "plan": {
         "title": "The plan: the Pine Feeding Table, then the bins",
-        "why": "**Why here:** squirrels feed at the same few trees every day. Along the main trail, about halfway from the yard to the Junction, look for a pine with a pile of cone scales or cone cores at its base. Sit 25 to 30 yards from that tree, west of the trail, back to a wide trunk, facing north. If you find no pile, use the holly cluster west of the trail. **Wind:** nearly still, from the west-northwest. Your scent drifts slowly east-southeast, behind you. **Timing:** squirrels move at light, not before, so this is not a deer sit. Leave the yard at 5:15 and be seated by 5:35, about 30 minutes before legal light. **After 7:45:** work slowly toward the Junction, then loop to the feed bins for rabbit. **Cleaning:** a squirrel or rabbit takes about five minutes to clean at the yard, so nothing here eats your Sunday.",
+        "why": "**Why here:** squirrels feed at the same few trees every day. Along the main trail, about halfway from the yard to the Junction, look for a pine with a pile of cone scales or cone cores at its base. Sit 25 to 30 yards from that tree, west of the trail, back to a wide trunk, facing north. If you find no pile, use the holly cluster west of the trail. **Wind:** nearly still, from the west at 1 to 3 mph. Your scent drifts slowly east, behind you. **Timing:** squirrels move at light, not before, so this is not a deer sit. Leave the yard at 5:15 and be seated by 5:35, about 30 minutes before legal light. **After 7:45:** work slowly toward the Junction, then loop to the feed bins for rabbit. **Cleaning:** a squirrel or rabbit takes about five minutes to clean at the yard, so nothing here eats your Sunday.",
         "steps": [
           {
             "time": "5:15",
@@ -239,7 +264,7 @@
         "Bear and fox are in the area. Bear season opens Nov 14, and you are not hunting it. Slugs are for defense only."
       ],
       "regs": "Check the NCWRC Regulations Digest for season dates, Sunday hunting rules and bag limits for squirrel, rabbit, raccoon and opossum.",
-      "gaps": "No hunting entries in your Daily Notes this week. The National Weather Service point forecast could not be read. The 4 and 5 am figures came from one forecast page. The 6 to 9 am temperatures and rain chances came from a screenshot of another forecast app. Wind, cloud cover and gusts for 6 to 9 am were not available, so the wind is the daily forecast (west to west-southwest 5 to 10 mph) and not an hourly figure. Legal light is calculated from sunrise. I do not know if a cone-scale pile exists on the main trail, so the plan tells you how to find one and gives the holly cluster as a backup. The Digest was not checked directly."
+      "gaps": "No hunting entries in your Daily Notes this week. The National Weather Service point forecast could not be read. The 4 and 5 am figures came from one forecast page. The 6 to 9 am figures came from screenshots of another forecast app. No gust figures were listed for any hour. The 9 am wind of 3 mph is the forecast, not a measurement, and the daily text says 5 to 10 mph later in the day. Legal light is calculated from sunrise. I do not know if a cone-scale pile exists on the main trail, so the plan tells you how to find one and gives the holly cluster as a backup. The Digest was not checked directly."
     }
   ]
 }
