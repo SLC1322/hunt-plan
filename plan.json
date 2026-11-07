@@ -1,307 +1,244 @@
 {
   "schema": 1,
-  "generated": "2026-11-06T17:53:23-05:00",
+  "generated": "2026-11-07T17:47:37-05:00",
   "hunts": [
     {
-      "date": "2026-11-07",
-      "label": "Saturday, Nov 7",
-      "subtitle": "A sliver of moon, a damp mild dawn, and bucks who have other things on their minds.",
+      "date": "2026-11-08",
+      "label": "Sunday, Nov 8",
+      "subtitle": "A cold, still, clear dawn. The squirrels will sleep in until the sun finds the pines, and so may the rabbits.",
       "rules": {
-        "title": "Saturday checklist (clocks already changed Nov 1)",
+        "title": "Sunday is not Saturday",
         "items": [
-          "**Hunter orange** on, hat and vest (required Oct 17 to Jan 1 for firearm hunters).",
-          "**Real hunting is legal light, 6:05 am, to about 9:00 am.** Be unloaded and out by 9:00.",
-          "**Dove and Coastal-zone ducks reopen today.** Both are opportunity only. Any migratory bird needs your HIP number and a 3-shell plug. Ducks also need the federal duck stamp, the state waterfowl privilege and steel shot only.",
-          "**Crow is open on Saturdays.** HIP and plug apply."
+          "**Hunter orange** on, hat and vest. It is required for firearm hunters Oct 17 to Jan 1.",
+          "**Stop by 9:30 am.** Plan to be unloaded and out by 9:00. Legal light is 6:06 am.",
+          "**Migratory birds are closed on Sundays.** That means dove, ducks, rails, woodcock, snipe and crow. Leave them alone today."
         ],
-        "note": "Confirm seasons, bag limits and shooting hours in the NCWRC Regulations Digest. Check that your phone and watch both show the new time."
+        "note": "Confirm seasons, shooting hours and the Sunday rules in the NCWRC Regulations Digest before you go. The clocks already changed on Nov 1, so the times here are what your clock shows."
       },
       "conditions": {
-        "source": "Source: hourly forecast from a commercial weather service (the National Weather Service point forecast page was out of date). Sun times from a published sun table.",
+        "source": "Source: commercial weather service forecasts (the National Weather Service point forecast could not be read this run). Sun times from a published sun table.",
         "items": [
-          "**Walk-in, 4:50 am:** about 55°F. Light northwest breeze, 3 to 4 mph. Partly cloudy. Humidity 97 to 98%, so wet leaves and dew.",
-          "**9 am:** about 56°F. North-northwest wind near 8 mph. Partly cloudy.",
-          "**Precipitation:** 11% or less all morning. Dry. Afternoon high near 64°F.",
-          "**Sunrise:** 6:35 am. **Legal light:** 6:05 am (sunrise minus 30 minutes).",
-          "**Moon:** waning crescent, about 7% lit. Moonrise listed near 3:57 am, so a thin sliver sits low in the east. New moon is Monday."
+          "**Walk-in, about 5:15 am:** around 40°F. Wind from the west-northwest at about 1 mph, so nearly still. Partly cloudy. Humidity 85 to 87%.",
+          "**9 am:** no hourly figure was available. The day is forecast mainly sunny, wind west to west-southwest 5 to 10 mph, high near 64°F.",
+          "**Precipitation:** dry. About 5 to 6% shown for the early hours.",
+          "**Sunrise:** 6:36 am. **Legal light:** 6:06 am (sunrise minus 30 minutes).",
+          "**Moon:** new moon, about 3% lit. Dark sky. A thin sliver may rise near 5 am."
         ],
-        "meaning": "**What it likely means (my assumption, not proven):** a mild, damp start turning breezy. Deer often move best right at first light, and a dark moon can push more feeding into daylight. The wind builds past 6 mph after 7, which covers small noises but also pushes deer to sheltered edges.",
+        "meaning": "**What it likely means (my assumption, not proven):** a cold, clear, calm start. Squirrels often hold in the nest until the sun warms the pines, so expect the best activity from about 7:15 on. Rabbits sit in sun-warmed edges once the light hits. Calm air means they hear you long before they smell you.",
         "hours": [
           {
             "hour": "4 am",
-            "temp": 55,
-            "wind": "NW 3",
-            "cloud": 55
+            "temp": 40,
+            "wind": "WNW 1",
+            "cloud": 46
           },
           {
             "hour": "5 am",
-            "temp": 54,
-            "wind": "NNW 4",
-            "cloud": 47
-          },
-          {
-            "hour": "6 am",
-            "temp": 54,
-            "wind": "NNW 5",
-            "cloud": 25
-          },
-          {
-            "hour": "7 am",
-            "temp": 53,
-            "wind": "NNW 6",
-            "cloud": 26
-          },
-          {
-            "hour": "8 am",
-            "temp": 55,
-            "wind": "NNW 7",
-            "cloud": 43
-          },
-          {
-            "hour": "9 am",
-            "temp": 56,
-            "wind": "NNW 8",
-            "cloud": 30
+            "temp": 40,
+            "wind": "WNW 1",
+            "cloud": 39
           }
         ],
-        "hours_note": "No gust figures were listed. Coldest point is about 7 am. The wind climbs from 3 to 8 mph, so the thread will lean harder after 8."
+        "hours_note": "Only 4 and 5 am could be read. The 6 to 9 am hours were not available, so none are shown. No gust figures were listed. Trust your thread over this table."
       },
       "wind": {
-        "from_deg": 338,
-        "mph": 5,
-        "label": "from the north-northwest, 3 mph at the walk-in rising to 8 mph by 9 am"
+        "from_deg": 292,
+        "mph": 1,
+        "label": "from the west-northwest, near calm at the walk-in, then west to west-southwest 5 to 10 mph later (assumption)"
       },
       "safe_arc": {
-        "from_deg": 315,
-        "to_deg": 45
+        "from_deg": 300,
+        "to_deg": 30
       },
       "in_season": [
-        "**Deer, either sex** (gun season, day 22). Seeking phase: bucks are on their feet checking does.",
-        "**Gray and fox squirrel.**",
-        "**Rabbit.**",
-        "**Raccoon and opossum** (opportunity only).",
-        {
-          "text": "**Dove** (second segment Nov 7 to Nov 28). Opportunity only.",
-          "tip": "Needs HIP and a 3-shell plug. #7.5, birds crossing to the north only, never low, never toward the house or field."
-        },
-        {
-          "text": "**Coastal-zone ducks** reopen today (Nov 7 to 28). Skip unless you own steel shot.",
-          "tip": "Needs HIP, federal duck stamp, state waterfowl privilege, steel shot and the plug. Never carry lead shot while duck hunting."
-        },
-        "**Crow** (Saturday is an open day) and **snipe**: opportunity only with HIP and plug.",
-        "Closed: woodcock (opens Dec 10). Quail opens Nov 21. Turkey is a spring season.",
+        "**Gray and fox squirrel** (open to Feb 28 and Jan 31). Today's main target.",
+        "**Rabbit** (open to Feb 28). Second target.",
+        "**Raccoon and opossum** (opportunity only, open to Feb 28).",
+        "**Deer** is open, but you are not hunting it today. Sunday mornings are for small game. If one walks by, enjoy it.",
+        "Closed today: all migratory birds on Sundays. Woodcock opens Dec 10. Quail opens Nov 21. Turkey is a spring season.",
         {
           "text": "Awareness only: bobcat and bear",
           "tip": "Bobcat is open. Bear opens next Saturday, Nov 14. You are not hunting either. Slugs stay zipped, for defense only."
         }
       ],
       "plan": {
-        "title": "The plan: the Loop North Elbow, wind in your face near the swamp",
-        "why": "**Why here:** the loop trail's north end bends back toward the swamp. Sit about 40 yards south of the water, a few steps off the trail, facing N and NE. The wind comes from the NNW, so it blows into your face. Your scent drifts SSE, behind you, away from the swamp corridor. Deer that come up from the swamp thickets or along the water edge walk into the wind and toward you. **Approach:** come in from the south along the loop interior, so your scent never crosses the area ahead of you. **Timing:** legal light is 6:05. Be seated by 5:20, about 45 minutes before. Leave the yard at 4:50. **Caution:** a deer on your south side would smell you. Turn your head, never the gun. This is new ground for you, and it teaches you where the loop meets the swamp.",
+        "title": "The plan: the Pine Feeding Table, then the bins",
+        "why": "**Why here:** squirrels feed at the same few trees every day. Along the main trail, about halfway from the yard to the Junction, look for a pine with a pile of cone scales or cone cores at its base. Sit 25 to 30 yards from that tree, west of the trail, back to a wide trunk, facing north. If you find no pile, use the holly cluster west of the trail. **Wind:** nearly still, from the west-northwest. Your scent drifts slowly east-southeast, behind you. **Timing:** squirrels move at light, not before, so this is not a deer sit. Leave the yard at 5:15 and be seated by 5:35, about 30 minutes before legal light. **After 7:45:** work slowly toward the Junction, then loop to the feed bins for rabbit. **Cleaning:** a squirrel or rabbit takes about five minutes to clean at the yard, so nothing here eats your Sunday.",
         "steps": [
           {
-            "time": "4:50",
-            "text": "Leave the yard on the main trail with the red light low. Three steps, listen, three steps. Count your steps."
-          },
-          {
-            "time": "5:00",
-            "text": "At the loop trail, turn onto it and follow it north through the center. Keep the swamp ahead of you."
-          },
-          {
             "time": "5:15",
-            "text": "About 40 yards before the water, stop. Step a few yards off the trail and pick a trunk wider than your shoulders. Nothing south of you matters; check what is behind every lane you will use."
+            "text": "Leave the yard on the main trail with the red light low. Three steps, listen, three steps. Count your steps from the yard."
           },
           {
-            "time": "5:20",
-            "text": "Sit with your back to the trunk, facing N and NE. Load at the sit, muzzle north, safety on. Tie the thread to the barrel. If it points toward the swamp instead of SSE, slide 20 yards and sit again."
+            "time": "5:25",
+            "text": "Halfway to the Junction, look at the base of the pines for cone scales, cone cores and husks. Pick the biggest pile. Note which tree it is under."
           },
           {
-            "time": "6:05",
-            "text": "Legal light. Scan in sectors, near, middle, far. The first half hour of light is the best window."
+            "time": "5:35",
+            "text": "Sit 25 to 30 yards from that tree, back to a trunk wider than your shoulders, facing north. Load #4 at the sit, muzzle north, safety on. Tie the thread to the barrel."
           },
           {
-            "time": "7:30",
-            "text": "No deer? Stay put. A dark moon and a rising wind can still bring a buck through. Move only your eyes."
+            "time": "6:06",
+            "text": "Legal light. Listen first. Scan the upper third of the pines and the limbs near the trunk. In the cold, expect little before the sun hits."
           },
           {
-            "time": "8:30",
-            "text": "Swap 00 for #4. Walk the swamp edge west, slow, into the wind. Squirrel and rabbit. Shoot N, NW, NE, E or W only."
+            "time": "7:15",
+            "text": "The sun reaches the pines. Watch for a squirrel leaving a nest and for tails flicking. Shoot only the head or neck, and only with a trunk or the ground behind the target. Wait 10 minutes after a shot before moving."
           },
           {
-            "time": "8:50",
-            "text": "Walk the route you would use to drag a deer from the sit to the yard. Count the steps."
+            "time": "7:45",
+            "text": "Still-hunt toward the Junction. Three slow steps, then stop for a full minute. Keep the sun at your back where you can. Shoot N, NW, NE, E or W only."
+          },
+          {
+            "time": "8:15",
+            "text": "Take the loop trail to the feed bins for rabbit. Approach from the north, into any breeze, and stop 15 yards short of thick cover. Shoot N or W only here, never toward the field or the neighbor."
+          },
+          {
+            "time": "8:45",
+            "text": "Unload at the yard edge. Bag any game and keep it cool. Gloves on for the clean."
           },
           {
             "time": "9:00",
-            "text": "Unloaded and out at the yard edge. Log what you saw with a \"note:\" message."
+            "text": "Out. The hard stop is 9:30, so there is no reason to be late. Log what you saw with a \"note:\" message."
           }
         ]
       },
       "load": {
         "items": [
-          "**In the gun:** 00 buckshot in the magazine. Modified choke. Safety on. Plug in.",
-          "**Left pocket:** spare 00 buckshot only.",
-          "**Right pocket:** #4 and #7.5 birdshot. Swap in at about 8:30.",
+          "**In the gun:** #4 birdshot. Modified choke. Safety on. This is your squirrel and rabbit load.",
+          "**Right pocket:** #7.5 birdshot, for rabbits inside 20 yards.",
           "**Zipped pocket:** 2 slugs. Bear defense only.",
-          "**.22 LR:** not today. Deer week.",
+          "**No buckshot today.** Leave the 00 at home. No deer on a Sunday.",
+          "**.22 LR:** optional. If you bring it, use it only on a squirrel with a trunk or the ground behind it.",
           "**Hunter orange:** hat and vest on.",
-          "**Also carry:** knife, hatchet, gloves, 12-inch thread, 10 feet of cord, a dry layer."
+          "**Also carry:** knife, gloves, 12-inch thread, 10 feet of cord, a game bag, a dry layer."
         ],
         "warnings": [
           "Never shoot a deer with birdshot.",
-          "Never shoot buckshot or slugs without the ground behind the target.",
-          "Keep buckshot and birdshot in different pockets. Check by feel.",
-          "Steel only for ducks. Do not carry lead shot while duck hunting."
+          "Never shoot at game with a house, the field, the road or the neighbor behind it.",
+          "Keep slugs zipped and separate from birdshot. Check by feel.",
+          "No birds today. Migratory birds are closed on Sundays."
         ]
       },
       "animals": [
         {
-          "name": "Deer",
-          "paragraphs": [
-            "**Local:** common. They bed in the swamp thickets and travel the water edge and the pines.",
-            "**Today:** seeking phase, dark moon, mild, wind in your face. Best window (assumption): 6:05 to 7:30.",
-            "**Shot:** broadside or quartering away only. 30 yards maximum with 00. Aim just behind the front shoulder, mid-body. Shoot only N, NW, NE, E or W. Never south."
-          ],
-          "details": [
-            {
-              "title": "Technique: hear it before you see it",
-              "steps": [
-                "A walking deer makes an uneven, four-beat step: crunch, pause, crunch-crunch, pause. A squirrel is fast and random.",
-                "When you hear the uneven rhythm, stop moving. Turn only your eyes toward it.",
-                "Look low and through the gaps between trunks, not at the sky line. You are looking for legs first.",
-                "Note the direction and wait. Do not raise the gun until you see a clear body, the ground behind it, and a lane that is N, NW, NE, E or W."
-              ],
-              "note": "Wet leaves are quiet today. Your ears will tell you less than usual, so trust movement and flicks."
-            }
-          ],
-          "after": [
-            "**Tip:** if you take a deer, tag it right away and look up the reporting steps in the Regulations Digest tonight, before you need them.",
-            "**Tip:** a mild morning means meat warms fast. Plan to open and cool it within the hour."
-          ]
-        },
-        {
           "name": "Squirrel",
           "paragraphs": [
             "**Local:** gray squirrels are seen often. Fox squirrel is possible.",
-            "**Today:** damp leaves keep them quiet early. Feeding picks up as the sky clears around 6. (Assumption.)",
+            "**Today:** a cold start keeps them in the nest until the sun warms the pines. Best window (assumption): 7:15 to 9:00.",
             "**Shot:** head and neck. #4 to 30 yards, #7.5 to 25 yards. Only with a trunk or the ground behind it."
           ],
           "details": [
             {
-              "title": "Technique: watch the cutters under the pines",
+              "title": "Technique: listen for the gnaw",
               "steps": [
-                "Look for pine cone scales and fresh husks piled at a trunk base. That is a feeding table.",
-                "Stand 25 yards off, behind a trunk, and watch the crown above the pile.",
-                "Wait 10 to 15 minutes without moving. The squirrel returns to the same limb.",
-                "Shoot only when the head is in the open and a trunk or the ground is behind it."
-              ]
+                "Stand or sit still and listen for a fine, dry scraping. That is a squirrel gnawing a nut or cone.",
+                "Pick the direction, then look at the upper third of the tree, not the base.",
+                "Watch for falling bits of shell or scale. Trace them up to the limb.",
+                "Wait for the head to come into the open before you raise the gun."
+              ],
+              "note": "A chewed pine cone left as a bare spike with a few scales on top is a cob. Fresh cobs under a tree mean a regular feeder."
             }
           ],
           "after": [
-            "**Tip:** scales that are still wet or sticky with sap are fresh. Dry gray ones are old."
+            "**Tip:** keep your back to the sun. A squirrel on a bright limb is easy to see and the light is behind you.",
+            "**Tip:** after a shot, mark where it fell against a trunk, then walk straight to it. Do not search."
           ]
         },
         {
           "name": "Rabbit",
           "paragraphs": [
             "**Local:** likely at the feed bins and along thick edges of the loop.",
-            "**Today:** dew is heavy, so a rabbit's path shows as a dark line through wet grass.",
-            "**Shot:** #4 to 30 yards, N, NW, NE, E or W only."
+            "**Today:** cold mornings send rabbits to sun-warmed edges once the light hits, usually after 7:30.",
+            "**Shot:** #4 to 30 yards, N or W only at the bins. Never toward the field or the neighbor."
           ],
           "details": [
             {
-              "title": "Technique: follow the dew trail",
+              "title": "Technique: read the clipped twig",
               "steps": [
-                "Look for a dark trail brushed through wet grass or leaves, ending at a thicket.",
-                "Follow it slowly into the wind.",
-                "Stop 15 yards short of the thicket and wait a full minute.",
-                "If it bolts south, let it go."
+                "Look at small twigs and briar stems near the ground. A rabbit cuts them at a clean 45 degree angle.",
+                "A fresh cut is pale and moist. An old cut is gray.",
+                "Mark the thicket nearest the fresh cuts and approach it into the wind.",
+                "Stop 15 yards short and wait a full minute. If it bolts south, let it go."
               ]
             }
           ],
           "after": [
-            "**Safety:** wear gloves when you handle it and check the liver for white spots."
+            "**Safety:** wear gloves when you handle it and check the liver for white spots. Do not eat a rabbit with a spotted liver."
           ]
         },
         {
           "name": "Raccoon and opossum",
           "paragraphs": [
             "Opportunity only. One heading to a den at dawn is possible near the swamp edge or the bins.",
-            "**Look for:** scat with seeds and berry skins on logs, and overturned leaf litter. Hair snagged on bin edges.",
+            "**Look for:** a five-fingered hand print in mud, and hair snagged on bin edges.",
             "**Shot:** #4, head and neck, 20 yards, with a trunk or the ground behind. Never toward the house or field."
           ]
         },
         {
-          "name": "Dove and crow (opportunity)",
+          "name": "Deer (not hunting today)",
           "paragraphs": [
-            "**Dove:** the season reopens today. They feed in open fields, so most traffic is off your land. A bird over the pines is a bonus.",
-            "**Crow:** open on Saturdays. Take one only with a clear northern sky. #7.5, plug in, HIP on you.",
-            "**Rule:** both need the 3-shell plug and HIP."
-          ],
-          "details": [
-            {
-              "title": "Technique: pick your gap before the bird comes",
-              "steps": [
-                "Choose an opening in the canopy to the north and watch only that gap.",
-                "When a bird enters it, mount the gun early and swing through.",
-                "Never fire at a low bird, or at one toward the house or field."
-              ]
-            }
+            "Deer are open, but Sunday is for small game. With only #4 and #7.5 in the gun, a deer is not a shot you can take. Never shoot a deer with birdshot.",
+            "If one walks by, stay still and watch it. Note where it came from and where it went, and send it in your \"note:\" message. That is scouting for a Saturday."
           ]
         }
       ],
       "skill": {
-        "title": "Skill of the week: tagging and reporting a deer",
-        "principle": "**Core principle:** the work after the shot matters. A tag and a report are part of the hunt. Learn them before you need them.",
+        "title": "Skill of the week: clean a squirrel or rabbit in five minutes",
+        "principle": "**Core principle:** small game is quick to clean, and quick to cool. Do it right away with gloves on and your Sunday stays yours.",
         "sections": [
           {
-            "title": "Before the hunt (tonight, 5 minutes)",
+            "title": "Squirrel (about 5 minutes)",
             "steps": [
-              "1. Open the NCWRC Regulations Digest and find the deer harvest reporting section.",
-              "2. Note how the report is made and how soon it must be made. Write it on a card.",
-              "3. Put the card, a pen and the cord in your pocket."
+              "1. Gloves on. Lay it belly down on a clean surface.",
+              "2. Cut across the back, through the skin only, just above the tail.",
+              "3. Put two fingers under the skin on each side of the cut. Pull one way to strip the skin over the head and the other to strip it over the tail.",
+              "4. Cut off the head, the feet and the tail.",
+              "5. Slit the belly and remove the insides. Check the liver, which should be dark and smooth.",
+              "6. Rinse in cold water and put it in a bag on ice or in the fridge within the hour."
             ]
           },
           {
-            "title": "After a deer is down",
+            "title": "Rabbit (about 5 minutes)",
             "steps": [
-              "1. Unload. Safety on. Wait a few minutes, then approach from behind.",
-              "2. Fill out the tag right away, as the Digest says.",
-              "3. Gut and cool the meat within the hour.",
-              "4. Make the report as the card says. Log the date and the details."
+              "1. Gloves on. Pinch the skin on the back and cut a small slit.",
+              "2. Put two fingers into the slit and pull the skin apart toward the head and toward the tail.",
+              "3. Cut off the feet and the head.",
+              "4. Slit the belly and remove the insides. Check the liver for white spots.",
+              "5. Rinse and cool it within the hour."
             ]
           }
         ],
         "details": [
           {
-            "title": "Tap to open: why do it tonight",
+            "title": "Tap to open: why cool it fast",
             "paragraphs": [
-              "Rules for tagging and reporting change by season and by method. Reading the current Digest before the hunt means no guessing with a deer on the ground."
+              "A mild day warms meat quickly. Cool small game within the hour. Wash your hands and knife well afterward."
             ]
           }
         ],
-        "checkpoint": "**Checkpoint:** send a \"note:\" message with the reporting steps you wrote on your card, in your own words."
+        "checkpoint": "**Checkpoint:** send a \"note:\" message with what you shot, how long the clean took, and one thing you would do differently."
       },
       "land": {
-        "intro": "Today you learn where the loop trail meets the swamp. Make notes on the walk out.",
+        "intro": "Continuing Saturday's scouting, now aimed at small game. Make notes on the walk.",
         "steps": [
-          "Count your steps from the yard to the Loop North Elbow, and from the sit to the Junction.",
-          "Run the thread test at 5:25 and 8:00. Write down which way it points each time.",
-          "Walk the swamp edge and look for fresh tracks in the mud. Note the size and the direction.",
-          "Look for a deer trail within 100 yards of your sit. Note which way it runs.",
+          "Count your steps from the yard to the Pine Feeding Table, and from the table to the Junction.",
+          "Run the thread test at 5:40 and 8:00. Write down which way it points each time.",
+          "Count the piles of cone scales or husks along the main trail and note the trees. The biggest pile is your best sit.",
+          "At the feed bins, look for clipped twigs, droppings and runs through the grass. Note where they lead.",
           "Send a \"note:\" message with what you found. Next week's plan will use it."
         ]
       },
       "safety": [
-        "**Shooting arc:** north, northwest and northeast. Never beyond east or west. NEVER south. The house is SW, the field is SE, the neighbor is south.",
-        "Buckshot and slugs need the ground behind them.",
-        "Hunter orange on, hat and vest. Real hunting ends about 9:00. Be unloaded and out.",
-        "Mild and damp at dawn, about 55°F. Wet leaves and roots are slick. Walk slowly with the red light, and watch for holes and stumps near the swamp edge.",
-        "Warm weather: if you take a deer, cool the meat within the hour. Do not leave it in the sun.",
-        "Bear and fox are in the area. Slugs are for defense only."
+        "**Shooting arc:** north-northwest, north and north-northeast. Never beyond east or west. NEVER south. The house is SW, the field is SE, the neighbor is south.",
+        "Birdshot and .22 need a trunk or the ground behind the target. Do not shoot a squirrel against the sky toward the house.",
+        "Hunter orange on, hat and vest. The hard stop is 9:30 am. Be unloaded and out by 9:00.",
+        "Cold start, about 40°F. Wear a dry layer and keep your hands warm so your trigger finger works. Wet leaves and roots are slick, so walk slowly with the red light.",
+        "Knife and gloves for cleaning. Cut away from your hand. Wash up afterward.",
+        "Bear and fox are in the area. Bear season opens Nov 14, and you are not hunting it. Slugs are for defense only."
       ],
-      "regs": "Check the NCWRC Regulations Digest for season dates, deer tagging and reporting, bag limits and migratory bird requirements.",
-      "gaps": "No hunting entries in your Daily Notes this week. The National Weather Service page was out of date, so the hourly table came from another forecast service with no gust figures and no Friday-night details. The moonrise time was not dated on its source page and may be for Friday night. Legal light is calculated from sunrise. The Digest was not checked directly for the crow day rule or the reporting steps."
+      "regs": "Check the NCWRC Regulations Digest for season dates, Sunday hunting rules and bag limits for squirrel, rabbit, raccoon and opossum.",
+      "gaps": "No hunting entries in your Daily Notes this week. The National Weather Service point forecast and two other forecast pages could not be read this run. Only the 4 and 5 am figures and the daily summary were found, so there is no 6 to 9 am table, no 9 am temperature and no gust figures. One source gave different Sunday lows, 38 and 43°F. Legal light is calculated from sunrise. I do not know if a cone-scale pile exists on the main trail, so the plan tells you how to find one and gives the holly cluster as a backup. The Digest was not checked directly."
     }
   ]
 }
