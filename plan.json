@@ -1,15 +1,16 @@
 {
   "schema": 1,
-  "generated": "2026-11-11T19:09:51-05:00",
+  "generated": "2026-11-13T17:53:31-05:00",
   "hunts": [
     {
       "date": "2026-11-14",
       "label": "Saturday, Nov 14",
-      "subtitle": "The front blew the sky clean. Sit in the lee, let the gusts pass, and let the squirrels come to you.",
+      "subtitle": "Frost on the leaves, sun on the trunks by seven. Sit high, face the light's far side, and let the squirrels come out to warm up.",
       "rules": {
         "title": "Rules for this hunt",
         "items": [
           "No clock change before this hunt. The next one is Sunday Mar 14, 2027 (spring forward).",
+          "**Frost advisory until 8 am.** Dress warm and expect loud, crunchy leaves until the sun melts the frost.",
           "**Bear season opens today** (Nov 14 to 22). You do not hunt bear, but other hunters may be out. Deer gun season is still open for them: stay in orange.",
           "**Saturday is a crow day** (Wed, Fri, Sat only). Dove segment 2 and snipe are open. Quail opens next Saturday, Nov 21.",
           "Woodcock is closed until Dec 10."
@@ -19,33 +20,33 @@
       "conditions": {
         "source": "National Weather Service point forecast",
         "items": [
-          "Walk-in: about **40F** (overnight low forecast near 40).",
+          "Walk-in: about **34F** with frost. Friday night low is forecast near 34.",
           "9 am: mid-40s (assumption). The afternoon high is near **55F**.",
-          "Wind: **NW 6 to 9 mph, gusts to 15** overnight. Saturday morning wind was not listed; expect it to ease (assumption).",
-          "Sky: partly cloudy overnight, then **sunny**. No rain in the forecast.",
+          "Wind: **north 3 to 6 mph** overnight, then **northwest 5 to 11 mph** Saturday. No gust figure was listed.",
+          "Sky: partly cloudy overnight, then **sunny**. Widespread frost before 8 am. No rain mentioned.",
           "Sunrise **6:43 am**. Legal light **6:13 am**.",
-          "Moon: **waxing crescent, about 29 percent**. It sets in the evening, so the morning is dark."
+          "Moon: **waxing crescent, about 25 percent**. Moonrise is near 11:40 am, so the morning is dark and moonless."
         ],
-        "meaning": "Assumption: a cool, clear morning after a front means squirrels stay tucked in until the sun reaches the trunks, and gusts keep them low in the canopy. Expect the best squirrel and rabbit movement from about 7:00 to 9:00, when the wind eases and the sun warms the east faces.",
-        "hours_note": "No hour-by-hour table was available for the hunt morning, so the hourly chart is left out. Temperatures above are estimates from the daily forecast."
+        "meaning": "Assumption: frost and a clear sky keep squirrels in the nest until the sun reaches the trunks, then they feed hard. Expect the best squirrel and rabbit movement from about 7:15 to 9:00, as the frost melts and the breeze picks up from the northwest.",
+        "hours_note": "No hour-by-hour table was available for the hunt morning, so the hourly chart is left out. Temperatures above come from the daily forecast and are estimates."
       },
       "wind": {
         "from_deg": 315,
         "mph": 7,
-        "label": "NW, easing (assumption)"
+        "label": "NW 5 to 11, lighter and more northerly before dawn (assumption)"
       },
       "safe_arc": {
-        "from_deg": 330,
-        "to_deg": 80
+        "from_deg": 295,
+        "to_deg": 20
       },
       "in_season": [
         {
           "text": "**Gray squirrel** (main) and fox squirrel",
-          "tip": "Feed trees on sunlit trunks after 7:00."
+          "tip": "Feed trees on sunlit trunks after 7:15."
         },
         {
           "text": "**Rabbit**",
-          "tip": "Sunny edges of thick cover and the feed bins area."
+          "tip": "Sunny edges of thick cover and the feed bins area, after the frost melts."
         },
         {
           "text": "Raccoon and opossum",
@@ -53,7 +54,7 @@
         },
         {
           "text": "**Crow** (Saturday is legal)",
-          "tip": "Opportunity from the sit. Shots north only."
+          "tip": "Opportunity from the seat. Shots north only."
         },
         {
           "text": "Dove, segment 2 (Nov 7 to 28)",
@@ -72,36 +73,36 @@
         "Bear and bobcat are open. You do not hunt them. Stay aware near the swamp."
       ],
       "plan": {
-        "title": "Hardwood Pocket Seat",
-        "why": "You are hunting food, so sit where squirrels eat. Find the spot on the loop trail where holly and one or two oaks or hickories stand close together, with cut hulls, nut bits, or holly skins on the ground. Put your back to a wide pine on the **south** edge of that pocket and face **N to NE**. The sun comes up behind your right shoulder and lights the trunks in front of you. The NW wind crosses you from the left, and the pines to your west break the gusts. Squirrels will hear you before they smell you, so sit still. Every shot goes north, through the hardwoods, with trunks and ground behind.",
+        "title": "Center Loop Rise",
+        "why": "The sun comes up in the southeast, so sit with it behind you and face **northwest**. The trunks in front of you light up first, and squirrels coming out to warm up are easy to see. Pick the gentle rise at the center of the loop trail, where oaks, hickories, and holly stand within 40 yards to the NW. Sit against a wide pine trunk on the south side of that rise. The NW breeze is in your face, so your scent drifts behind you, away from the squirrels. Frost makes leaves loud, so walk in on bare trail dirt and move only after the sun melts the frost. Every shot goes between NW and N, with trunks and ground behind.",
         "steps": [
           {
             "time": "5:50",
-            "text": "Leave the yard by the main trail. Red light only. Walk 20 steps, stop 10 seconds, repeat. Gun unloaded."
+            "text": "Leave the yard by the main trail. Red light only. Walk on bare dirt, not frosted leaves. 20 steps, stop 10 seconds. Gun unloaded."
           },
           {
             "time": "6:05",
-            "text": "Turn onto the loop trail and find the hardwood pocket. Step 15 yards off the trail to the pine. Sit, face N to NE, load #4, plug in. Red light off."
+            "text": "Turn onto the loop trail and climb to the center rise. Step 15 yards off the trail to the pine. Sit facing NW. Load #4, plug in. Red light off."
           },
           {
             "time": "6:13",
-            "text": "Legal light. Do not move. Scan the trunks 20 to 40 yards out, from NW round to E. Listen for cuttings falling and claws on bark."
+            "text": "Legal light. Do not move. Scan the trunks 20 to 40 yards out, from W round to N. Squirrels stay in the nest in frost."
           },
           {
             "time": "6:43",
-            "text": "Sunrise. Watch the sunlit faces of the trunks. Do the skill-of-the-week scan (see below) while you wait."
+            "text": "Sunrise. Watch for the first sunlit trunks. Do the shot-placement check (see skill) on each one you scan, but do not shoot yet."
           },
           {
             "time": "7:15",
-            "text": "Peak squirrel time begins as the wind eases. Use the leaf-scratch call once, then stay still for 10 minutes."
+            "text": "Sun reaches the feed trees. Peak squirrel time begins. Use the leaf-scratch call once, then stay still for 10 minutes."
           },
           {
-            "time": "7:50",
-            "text": "Still-hunt slowly NW into the wind along the loop to the main trail. 3 steps, 20 seconds still. Shots N only."
+            "time": "8:00",
+            "text": "Frost is gone and the leaves are damp and quiet. Still-hunt slowly north to the swamp edge, into the wind. 3 steps, 20 seconds still. Shots N only."
           },
           {
-            "time": "8:15",
-            "text": "Walk the main trail to the Junction and look at the swamp-edge pines in full sun. Crow check: listen for calls overhead."
+            "time": "8:20",
+            "text": "Walk the swamp edge to the Junction. Check the mud for snipe and tracks. Crow check: listen for calls overhead."
           },
           {
             "time": "8:35",
@@ -120,12 +121,15 @@
           "**Slugs: zipped in a separate pocket.** Bear defense only.",
           "**No 00 buckshot today.** It stays home.",
           "**Choke: Modified.**",
-          "**.22 LR (optional):** head shots on still squirrels only, with a trunk or the ground behind the squirrel."
+          "**.22 LR (optional):** head shots on still squirrels only, with a trunk or the ground behind the squirrel.",
+          "Pack - GRAB: gun, phone, water bottle filled, tell someone your plan and return time.",
+          "Pack - CHARGE: headlamp and spare flashlight before bed.",
+          "Pack - RESTOCK after the hunt: water, coffee or tea, nibble, nitrile gloves, .22 LR count, fatwood."
         ],
         "warnings": [
           "Never shoot a deer with birdshot. Not with #4, not with #7.5.",
           "Swap shells in the open with the muzzle north. Count every shell in and out.",
-          "Gusts shake dead limbs loose. Do not sit under snags or leaning dead pines."
+          "Cold hands are slow hands. Keep your finger outside the guard until the shot is sure."
         ]
       },
       "animals": [
@@ -133,13 +137,13 @@
           "name": "Gray squirrel and fox squirrel",
           "paragraphs": [
             "The most common game on the property. Grays work the hardwoods, holly, and swamp edge. A fox squirrel, bigger and orange-brown, may show in the open pines.",
-            "After a cold front they stay in the nest until the sun finds the trunks. Gusts push them low and tight to the bark. Expect the best hour from 7:15 to 8:30."
+            "In frost they wait in the nest until the sun finds the trunks, then feed hard for an hour or two. Expect the best window from 7:15 to 9:00."
           ],
           "details": [
             {
               "title": "Shot and load",
               "steps": [
-                "#4 at 20 to 35 yards. Aim at the head and front shoulders.",
+                "#4 at 20 to 35 yards. Aim at the head and neck of a squirrel on a trunk.",
                 "With the .22: head only, with wood or ground behind the squirrel.",
                 "After the shot, wait 10 minutes. Others freeze, then move again."
               ],
@@ -151,12 +155,12 @@
                 "Reach down and rake dry leaves with your fingers.",
                 "Make 3 or 4 short scratches, pause 2 seconds, then 3 or 4 more.",
                 "Stop for 10 minutes. Watch for a head or tail flick.",
-                "It sounds like a squirrel digging a nut. Use it from the seat only."
+                "It sounds like a squirrel digging a nut. Use it from the seat only, after the frost is off."
               ]
             }
           ],
           "after": [
-            "Tip: in gusts, look for the tail edge moving against the wind, not with the branches.",
+            "Tip: a bright tail edge lit by the low sun gives away a squirrel that the bark hides.",
             "Tip: a squirrel that circles the trunk away from you will come back around if you stay still for 2 minutes."
           ]
         },
@@ -164,7 +168,7 @@
           "name": "Rabbit",
           "paragraphs": [
             "Cottontails use the thick edges near the feed bins and the pine-holly thickets.",
-            "On a cool sunny morning they sit at the first warm edge of cover and trust their color."
+            "After a frosty night they sit at the first warm edge of cover once the sun hits it, and they trust their color."
           ],
           "details": [
             {
@@ -191,7 +195,7 @@
         {
           "name": "Raccoon and opossum",
           "paragraphs": [
-            "Both feed at night along the swamp and around the feed bins. At first light the last ones head for hollow trees and root dens."
+            "Both feed at night along the swamp and around the feed bins. At first light the last ones head for hollow trees and root dens. Frost shows fresh tracks well."
           ],
           "details": [
             {
@@ -204,13 +208,13 @@
             }
           ],
           "after": [
-            "Tip: hair on the edge of a feed bin means one rubbed past in the night."
+            "Tip: dark tracks on pale frost are fresh. A track with frost inside it is old."
           ]
         },
         {
           "name": "Crow",
           "paragraphs": [
-            "Crows roost off the property and fly over to feed. Saturday is a legal day. After a front they fly early and steady."
+            "Crows roost off the property and fly over to feed. Saturday is a legal day. On clear cold mornings they fly early and steady."
           ],
           "details": [
             {
@@ -280,65 +284,74 @@
         }
       ],
       "skill": {
-        "title": "Squirrel feed trees and nest reading",
-        "principle": "Squirrels are predictable because they eat in the same trees and sleep in the same nests. Find the food and the nests, and you know where to sit.",
+        "title": "Shot placement and backstops: #4, #7.5, and .22 LR",
+        "principle": "A clean shot is placement plus backstop. Know where the pellets or bullet go, and what they hit if you miss. If the backstop is not certain, do not shoot.",
         "sections": [
           {
-            "title": "Find the feed tree",
+            "title": "Squirrel with #4 or #7.5",
             "steps": [
-              "Walk slowly to the oaks, hickories, and holly in the loop pocket.",
-              "Look at the ground under each tree for cut hulls, nut shell bits, chewed acorn caps, and shredded holly berries.",
-              "Pick the tree with the biggest, freshest pile. Fresh pieces are bright and damp. Old ones are gray and dry.",
-              "Under pines, look for cone scales and cores. Sticky resin on the scales means fresh."
+              "Aim at the head and neck. Pellets in the head kill fast and leave the meat clean.",
+              "A squirrel on a trunk: aim at the head, with the trunk behind it. Pellets that miss hit wood.",
+              "A squirrel on a limb in the open: only shoot if the sky is north of you and nothing stands beyond. Shot can carry 100 yards or more.",
+              "Keep range at 20 to 35 yards. Closer is cleaner. Farther cripples."
             ]
           },
           {
-            "title": "Read the nests",
+            "title": "Squirrel with the .22 LR",
             "steps": [
-              "After the leaves drop, look up for round balls of leaves in forks, 20 to 40 feet high. Those are leaf nests.",
-              "A nest with green or fresh leaves is in use. A flattened gray nest is old.",
-              "Look for a hole in a trunk with a clean, chewed edge and bare bark below it. That is a den.",
-              "Mark nests near a feed tree. Squirrels travel between them at first light and late morning."
+              "Head shot only. A body shot ruins meat and can wound.",
+              "The squirrel must have a big trunk or the ground behind it. A .22 bullet can travel over a mile.",
+              "Never shoot at a squirrel against the sky or against thin branches.",
+              "If the squirrel moves, wait. Do not follow it with the muzzle through anything you would not shoot."
             ]
           },
           {
-            "title": "Use it today",
+            "title": "The 4-second backstop check",
             "steps": [
-              "From the seat, count the feed trees and nests you can see within 40 yards.",
-              "Watch the best feed tree in the sun from 7:15 on.",
-              "Do not shoot a squirrel in a nest tree toward the south. Only north, with a trunk or the ground behind."
+              "Look past the animal: what stops a miss?",
+              "Look left and right: is the whole arc inside NW to N?",
+              "Look at the ground: is the slope toward you or away?",
+              "Say it quietly: trunk, ground, north, clear. Then shoot."
+            ]
+          },
+          {
+            "title": "After the shot",
+            "steps": [
+              "Keep the gun pointed north and stay seated for a slow count of 10.",
+              "Mark the fall against a trunk, stump, or fork.",
+              "Walk to it with the gun unloaded if you must cross open ground."
             ]
           }
         ],
         "details": [
           {
-            "title": "Why it works in November",
+            "title": "Why it matters in the frost",
             "paragraphs": [
-              "Nuts and cones are the main food now. Squirrels cache and re-eat them, so the same trees get used day after day. Leaf drop makes nests easy to see."
+              "Cold fingers and heavy gloves rush shots. Take your time: a squirrel in sunlight stays for a minute. Waiting for a trunk behind it costs nothing."
             ]
           }
         ],
-        "checkpoint": "Before you leave the seat, count the leaf nests and feed trees within 40 yards. Write down the number and which tree had the freshest pile. Send it with note:."
+        "checkpoint": "Before your first shot, say the backstop check out loud in your head. After the hunt, send a note: about which shots you passed because the backstop was wrong."
       },
       "land": {
         "intro": "You learn the land by reading what the squirrels leave behind.",
         "steps": [
           "On the walk out, pick the 2 best feed trees you passed: biggest pile of fresh cuttings.",
           "Pace each from the Junction and note the tree type if you know it.",
-          "Count the leaf nests you can see from the main trail between the Junction and the yard.",
-          "Send what you find with a note: message, for example: note: feed trees, 2 oaks, 40 and 70 paces from Junction, 5 nests."
+          "Look at where the frost melted first. Those sunny spots are where squirrels and rabbits will sit.",
+          "Send what you find with a note: message, for example: note: feed trees, 2 oaks, 40 and 70 paces from Junction, sun hit the rise at 7:10."
         ]
       },
       "safety": [
         "NEVER shoot south. The house is SW and the field is SE: no-shoot directions.",
-        "Every shot today goes between NW and E, with the ground or a trunk behind the animal.",
+        "Every shot today goes between NW and N, with the ground or a trunk behind the animal.",
         "Hunter orange hat and vest are required (Oct 17 to Jan 1). Deer gun season is still open for other hunters, and bear opens today.",
         "Sky shots (dove, crow) only to the north, above the treeline.",
-        "Gusts to 15 mph can drop dead limbs. Do not sit under snags.",
-        "It is about 40F at walk-in. Wear layers you can open as it warms."
+        "Frost makes trails and logs slick. Unload before crossing logs or the swamp edge.",
+        "It is about 34F at walk-in. Wear layers you can open as it warms."
       ],
       "regs": "Check seasons, bag limits, and rules in the current NCWRC Regulations Digest before you hunt.",
-      "gaps": "No hour-by-hour forecast was available for the hunt morning, so no hourly chart is shown. The forecast was issued Wednesday evening, and Saturday morning wind was not listed. The point used may not match the property exactly. Moonrise and moonset were not shown for Saturday. Migratory dates (dove, snipe, rails, ducks, woodcock, crow) and quail come from the state proclamation and season tables read tonight. Bag limits for squirrel, rabbit, raccoon, opossum, quail, and crow were not found. Legal light is sunrise minus 30 minutes."
+      "gaps": "No hour-by-hour forecast was available for the hunt morning, so no hourly chart is shown, and no gust or rain chance was listed. The forecast was updated Friday afternoon. The point used may not match the property exactly. Sunrise and legal light (sunrise minus 30 minutes) were carried from an earlier calculation because the sun table could not be fetched tonight. The moon figures come from a monthly table. Migratory dates (dove, snipe, rails, ducks, woodcock, crow) and quail were checked earlier this week and not re-checked tonight. Bag limits for squirrel, rabbit, raccoon, opossum, quail, and crow were not found."
     }
   ]
 }
