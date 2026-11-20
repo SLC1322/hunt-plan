@@ -1,111 +1,119 @@
 {
   "schema": 1,
-  "generated": "2026-11-14T17:47:32-05:00",
+  "generated": "2026-11-20T04:13:43-05:00",
   "hunts": [
     {
-      "date": "2026-11-15",
-      "label": "Sunday, Nov 15",
-      "subtitle": "Second frost morning, same woods, new seat. The squirrels did not read the calendar, but the game warden's rules did.",
+      "date": "2026-11-21",
+      "label": "Saturday, Nov 21",
+      "subtitle": "Quail opens today, the weather turns tomorrow, and the rabbits have not been consulted on either.",
       "rules": {
-        "title": "Sunday is not Saturday",
+        "title": "Today's rules at a glance",
         "items": [
-          "**Hunter orange is required.** Deer gun season is open for other hunters until Jan 1, and bear season is open Nov 14 to 22. Wear your orange hat and vest.",
-          "**Stop by 9:30 am.** Plan to be unloaded and walking out at 9:00.",
-          "**All migratory birds are closed on Sundays.** No doves, crows, snipe, rails, woodcock, or ducks today.",
-          "No clock change this weekend. The next one is Sunday Mar 14, 2027."
+          "**Quail opens today**, Nov 21. It is a regular small-game season: no HIP or federal stamp, but carry your license.",
+          "**Crow is open today** (Wed, Fri, Sat only). Doves and snipe are open if the NCWRC dates still read the same when you check.",
+          "**Migratory birds need HIP certification and a plug** that holds only 3 shells total.",
+          "**Hunter orange is required.** Deer gun season stays open for others until Jan 1. Bear season ends Nov 22.",
+          "Clocks are on standard time now. The next change is Sunday Mar 14, 2027 (spring forward)."
         ],
-        "note": "Confirm Sunday rules and seasons in the current NCWRC Regulations Digest before you go."
+        "note": "Confirm seasons and bag limits in the current NCWRC Regulations Digest before you go."
       },
       "conditions": {
         "source": "National Weather Service point forecast",
         "items": [
-          "Walk-in: about **34F** with frost. The 4 to 7 am forecast runs 35, 34, 34, then 33F.",
-          "9 am: about **43F**. The afternoon high is near **57F**.",
-          "Wind: **northwest 5 to 10 mph** for the day. Hour-by-hour wind and gusts were not listed.",
-          "Sky: sunny early, then clouding up later. Rain chance about **4 percent**. **Frost advisory until 8 am.**",
-          "Sunrise **6:44 am**. Legal light **6:14 am**.",
-          "Moon: **waxing crescent, about 31 percent** (calculated). It stays low in the daytime sky, so the dark hours are moonless."
+          "Walk-in: low near **40F**, light and variable wind, partly cloudy. Another weather page disagreed on the low, so bring a layer.",
+          "9 am: no hourly figure was listed. The daily high is near **70F**, so it warms fast after sunrise.",
+          "Wind: **northeast 5 to 10 mph** for the day. Gusts were not listed.",
+          "Sky: more clouds than sun. Rain chance about **6 percent** Saturday. **Rain is forecast Sunday** (a coastal storm is possible).",
+          "Sunrise **6:51 am**. Legal light **6:21 am** (both calculated).",
+          "Moon: **waxing gibbous, about 90 percent** (calculated), full early next week. Moonrise and moonset were not found."
         ],
-        "meaning": "Assumption: a second frost morning and a clear sky mean quiet squirrels until the sun hits the trunks around 7:15, then a strong feed from about 7:15 to 9:00. Rabbits sit at the first sunny edge once the frost melts.",
-        "hours_note": "No hour-by-hour table with wind and cloud cover was available, so the hourly chart is left out. The hourly temperatures are in the list above."
+        "meaning": "Assumption: a mild morning with weather coming in tomorrow tends to push squirrels and rabbits to feed hard early, so expect the best movement from about 6:45 to 9:00 and less waiting for the sun.",
+        "hours_note": "No hour-by-hour table for Saturday was available, so the hourly chart is left out."
       },
       "wind": {
-        "from_deg": 315,
+        "from_deg": 45,
         "mph": 7,
-        "label": "NW 5 to 10 (daily forecast; hourly detail not listed)"
+        "label": "NE 5 to 10 (daily forecast; hourly detail not listed)"
       },
       "safe_arc": {
         "from_deg": 290,
-        "to_deg": 15
+        "to_deg": 20
       },
       "in_season": [
         {
           "text": "**Gray squirrel** (main) and fox squirrel",
-          "tip": "Sunlit feed trees after 7:15. Fresh cuttings on the frost show where they fed."
+          "tip": "Feed trees with fresh cuttings. Mild air means they move early."
         },
         {
           "text": "**Rabbit**",
-          "tip": "Sunny edges of thick cover and the feed bins area, after the frost melts."
+          "tip": "Thick pine and holly edges. Practice the solo kick-and-wait push (see skill)."
         },
         {
-          "text": "Raccoon and opossum",
-          "tip": "Open. Last ones going to dens at first light. Take only a sure, close shot."
+          "text": "**Quail (opens today)**",
+          "tip": "No covey has been seen here. Bonus only. Listen at first light."
         },
-        "Quail opens next Saturday, Nov 21. Not open today.",
-        "Migratory birds (doves, crow, snipe, rails, woodcock, ducks): closed on Sunday.",
+        {
+          "text": "Crow (Saturday open)",
+          "tip": "Watch the sky for flight lines. Shoot only with a clear sky shot to the north."
+        },
+        {
+          "text": "Dove and snipe (opportunity)",
+          "tip": "Swamp edges and mud flats. Needs HIP and a 3-shell plug."
+        },
+        "Raccoon and opossum are open. Take only a sure, close shot.",
         "Deer: tag filled for the season. Do not shoot a deer.",
         "Bear and bobcat are open. You do not hunt them. Stay aware near the swamp."
       ],
       "plan": {
-        "title": "Swamp-Edge Holly Seat",
-        "why": "Saturday you sat in the center of the loop. Today move to the **holly and hardwood cluster just west of the main trail, about 30 yards south of the swamp edge**, near the Junction. Sit against a wide trunk and face **north-northwest**. The northwest breeze is in your face, so your scent blows behind you. The low sun rises behind your right shoulder and lights the trunks in front of you. Hollies hold berries and oaks drop nuts, so squirrels come here to feed. Frost makes leaves loud, so walk in on bare trail dirt. Every shot goes between WNW and NNE, with a trunk, the swamp, or the ground behind the animal.",
+        "title": "Thicket Edge Seat",
+        "why": "New spot today: the **north edge of the thickest pine-and-holly cluster, where it meets more open woods, about 50 paces west of the north end of the loop trail**. Sit against a wide pine facing **northwest**. The northeast breeze crosses from your right, so your scent drifts away behind your left shoulder, off the lit trunks ahead. The rising sun comes up behind your right shoulder. Rabbits sit in the thick cover at your back and edge, and squirrels cut cones in the pines in front. After the seated hour you walk the same thicket edge for a solo rabbit push. Every shot goes between WNW and NNE with a trunk or the ground behind the animal.",
         "steps": [
           {
-            "time": "5:50",
-            "text": "Leave the yard on the main trail, about 25 minutes before legal light. Red light only. Walk on bare dirt, not frosted leaves. 20 steps, stop 10 seconds. Gun unloaded."
+            "time": "5:55",
+            "text": "Leave the yard on the main trail, about 25 minutes before legal light. Red light only. 20 steps, stop 10 seconds. Gun unloaded."
           },
           {
-            "time": "6:00",
-            "text": "Near the Junction, step off the trail to the holly cluster on the west side. Sit against the widest trunk, facing NNW. Load #4, plug in. Red light off."
+            "time": "6:05",
+            "text": "Reach the loop trail's north end, then walk west along the thicket edge. Sit against the widest pine, facing NW. Load #4 with the plug in. Red light off."
           },
           {
-            "time": "6:14",
-            "text": "Legal light. Do not move. Scan the trunks 20 to 40 yards out, from WNW round to NNE. Frost keeps squirrels in the nest."
+            "time": "6:21",
+            "text": "Legal light. Stay still. Listen for a quail covey whistle and crow calls. Scan trunks 20 to 40 yards out from WNW round to NNE."
           },
           {
-            "time": "6:44",
-            "text": "Sunrise. Watch for the first sunlit trunks. Practice the backstop check (see skill) on each trunk you scan. Do not shoot yet."
+            "time": "6:51",
+            "text": "Sunrise. Watch for cone scales falling and tail flicks in the pines. Run the backstop check on each squirrel."
           },
           {
-            "time": "7:20",
-            "text": "Sun reaches the feed trees. Squirrel time begins. Use the leaf-scratch call once, then stay still for 10 minutes."
+            "time": "7:30",
+            "text": "Seated hour done. Mild air keeps squirrels moving, so take a sure shot if one offers. Mark any fall on a trunk."
           },
           {
-            "time": "8:00",
-            "text": "Frost is gone and the leaves are quiet. Still-hunt slowly west along the swamp edge, into the wind. 3 steps, then 20 seconds still. Shots N only."
+            "time": "7:45",
+            "text": "Unload and start the rabbit push along the thicket edge, heading northeast into the wind. Kick, then wait 30 seconds. Shots N, W, or E only."
           },
           {
-            "time": "8:25",
-            "text": "Turn south on the loop trail to the feed bins. Walk the sunny edge of the thick cover for rabbit. Shoot N or W only. Never toward the field SE."
+            "time": "8:30",
+            "text": "Work south along the loop to the feed bins, sunny edge of cover. Shoot N or W only. Never toward the field SE."
           },
           {
             "time": "8:50",
-            "text": "Unload at the bins. Count shells. Walk out by the main trail doing the land task."
+            "text": "Unload at the bins. Count shells. Walk out by the main trail, doing the land task."
           },
           {
             "time": "9:00",
-            "text": "Unloaded and out. Sunday hard stop is 9:30, so you have a cushion."
+            "text": "Unloaded and out. Real hunting ends here."
           }
         ]
       },
       "load": {
         "items": [
-          "**In the gun: #4** (plug in). Good for squirrel to 35 yards.",
-          "**Right pocket: #7.5** for a close rabbit.",
+          "**In the gun: #4** (plug in). Good for squirrel and rabbit to 35 yards.",
+          "**Right pocket: #7.5** for a close rabbit, a quail flush, or a dove.",
           "**Slugs: zipped in a separate pocket.** Bear defense only.",
           "**No 00 buckshot carried.**",
-          "**Choke: Modified.**",
-          "**.22 LR (optional):** head shots on still squirrels only, with a trunk or the ground behind the squirrel.",
+          "**Choke: Modified.** Fine for everything today.",
+          "**.22 LR (optional):** head shots on still squirrels only, with a trunk or the ground behind.",
           "Pack - GRAB: gun, phone, water bottle filled, tell someone your plan and return time.",
           "Pack - CHARGE: headlamp and spare flashlight before bed.",
           "Pack - RESTOCK after the hunt: water, coffee or tea, nibble, nitrile gloves, .22 LR count, fatwood."
@@ -113,63 +121,60 @@
         "warnings": [
           "Never shoot a deer with birdshot. Not with #4, not with #7.5.",
           "Swap shells in the open with the muzzle north. Count every shell in and out.",
-          "Cold hands are slow hands. Keep your finger outside the guard until the shot is sure."
+          "Quail and rabbits flush close and loud. Hold the shot until the bird or rabbit is clear and north of you."
         ]
       },
       "animals": [
         {
           "name": "Gray squirrel and fox squirrel",
           "paragraphs": [
-            "The most common game on the property. Grays work the oaks, hickories, and hollies. A bigger, orange-brown fox squirrel may show in the pines.",
-            "After frost they wait until the sun finds the trunks, then feed hard for two hours. Expect the best window from 7:15 to 9:00."
+            "The most common game on the property. Grays work oaks, hickories, and hollies. A fox squirrel may show in the pines.",
+            "With mild air they feed early. Expect movement from about 6:45 and a strong window to 9:00."
           ],
           "details": [
             {
               "title": "Shot and load",
               "steps": [
                 "#4 at 20 to 35 yards. Aim at the head and neck of a squirrel on a trunk.",
-                "With the .22: head only, with wood or ground behind the squirrel.",
-                "After the shot, wait 10 minutes. Other squirrels freeze, then move again."
-              ],
-              "note": "Mark the fall against a trunk or stump before you move."
+                "With the .22: head only, with wood or ground behind.",
+                "After the shot, wait 10 minutes. Mark the fall against a trunk."
+              ]
             },
             {
-              "title": "Call: hull drop",
+              "title": "Call: bark chatter",
               "steps": [
-                "Pick up a dry acorn or a holly twig.",
-                "Drop it onto dry leaves 5 feet away. Do it twice, 3 seconds apart.",
-                "Stay still for 5 minutes. A feeding squirrel drops hulls the same way.",
-                "Use it from the seat only, after the frost is off."
+                "Make a short, dry chuk-chuk with your tongue against the roof of your mouth.",
+                "Do it three times, 2 seconds apart, then stay still for 5 minutes.",
+                "Use it only from the seat. A squirrel often answers or leans out to look."
               ]
             }
           ],
           "after": [
-            "Tip: look for a half-eaten acorn or hull pile under a tree. Fresh ones are bright inside and not frosted over.",
-            "Tip: a squirrel flat on a limb is watching you. Stay frozen and it will usually move on."
+            "Tip: cone scales falling onto leaves mean a squirrel is feeding right now. Look straight up the trunk.",
+            "Tip: a squirrel that circles a trunk to hide returns in about 2 minutes. Wait with the gun ready."
           ]
         },
         {
           "name": "Rabbit",
           "paragraphs": [
-            "Cottontails use the thick edges near the feed bins and the thickets of pine and holly.",
-            "After a frosty night they sit at the first warm edge of cover once the sun reaches it."
+            "Cottontails live in the thick pine and holly edges and near the feed bins. They sit tight and flush only when you are close."
           ],
           "details": [
             {
               "title": "Shot and load",
               "steps": [
-                "#4 or #7.5 at 15 to 25 yards. Aim at the head and front shoulders.",
+                "#4 or #7.5 at 15 to 25 yards, aimed at the head and front shoulders.",
                 "Shoot only with the ground behind the rabbit.",
                 "Never shoot toward the south line or the field SE."
               ]
             },
             {
-              "title": "Technique: the 3-step pause",
+              "title": "Technique: kick and wait",
               "steps": [
-                "Take 3 slow steps along a brushy edge, then stand still for 10 seconds.",
-                "A hidden rabbit often bolts when you stop moving.",
-                "Look for the round black eye and the ear line, not the whole body.",
-                "Let it reach 15 yards before you shoot."
+                "Walk a few steps, kick a brush pile or thick clump, then stand still for 30 seconds.",
+                "A rabbit that bolts often stops after 15 to 20 yards to look back.",
+                "Look for the black eye and the ear line, not the whole body.",
+                "Shoot when it stops and the ground is behind it."
               ]
             }
           ],
@@ -178,9 +183,73 @@
           ]
         },
         {
+          "name": "Quail (opens today)",
+          "paragraphs": [
+            "Northern bobwhite. No covey has been seen on the property, so treat quail as a pleasant surprise, not the plan.",
+            "If a covey exists it holds in the thickest low cover at the edge of open ground and flushes all at once with a loud whirr."
+          ],
+          "details": [
+            {
+              "title": "Shot and load",
+              "steps": [
+                "#7.5 in the right pocket is the quail load. #4 in the gun will also work at 20 to 30 yards.",
+                "Pick ONE bird. Do not shoot into the brown of the covey.",
+                "Shoot only if the bird flies north, west, or east. Never swing south."
+              ]
+            },
+            {
+              "title": "Technique: listen first",
+              "steps": [
+                "At first light, stand still near thick edge cover and listen for the two-note covey call.",
+                "If you hear it, mark the direction. Walk slowly toward it and stop every few steps.",
+                "Let the covey flush, then swing through one bird and follow through."
+              ]
+            }
+          ],
+          "after": [
+            "Tip: take no quail from a covey that flushes toward the south or the field. Let them go."
+          ]
+        },
+        {
+          "name": "Crow",
+          "paragraphs": [
+            "Crows pass over the swamp and pine tops in the morning. Saturday is an open day."
+          ],
+          "details": [
+            {
+              "title": "Shot and load",
+              "steps": [
+                "#4 at 25 to 35 yards on a bird coming in.",
+                "Shoot only when the sky north of you is clear."
+              ]
+            }
+          ],
+          "after": [
+            "Tip: a crow cawing hard and circling is mobbing something, often an owl or a hawk. Watch the treetops."
+          ]
+        },
+        {
+          "name": "Dove and snipe (opportunity)",
+          "paragraphs": [
+            "Doves may cross the swamp edge or the wood line. Snipe use wet mud flats near the beaver lodge. Both need HIP and a plug."
+          ],
+          "details": [
+            {
+              "title": "Shot and load",
+              "steps": [
+                "#7.5 at 20 to 30 yards.",
+                "Shoot only a bird flying north, west, or east, with a clear sky behind it."
+              ]
+            }
+          ],
+          "after": [
+            "Tip: a snipe flushes with a scratchy call and zig-zags. Wait for it to straighten."
+          ]
+        },
+        {
           "name": "Raccoon and opossum",
           "paragraphs": [
-            "Both feed at night along the swamp and around the feed bins. At first light the last ones head for hollow trees and root dens."
+            "Both feed at night along the swamp and around the feed bins. At first light the last ones head for hollow trees."
           ],
           "details": [
             {
@@ -193,7 +262,7 @@
             }
           ],
           "after": [
-            "Tip: a dark track on pale frost is fresh. A track with frost in it is old."
+            "Tip: a dark, wet track on pale mud is fresh."
           ]
         },
         {
@@ -206,74 +275,65 @@
         }
       ],
       "skill": {
-        "title": "Shot placement and backstops: #4, #7.5, and .22 LR",
-        "principle": "A clean shot is placement plus backstop. Know where the pellets or bullet go, and what they hit if you miss. If the backstop is not certain, do not shoot.",
+        "title": "Reading rabbit cover and the solo kick-and-wait push",
+        "principle": "A rabbit hides until you are almost on it, then runs a short circle. Find the cover it likes, move slowly, and give it a reason to break where you can shoot safely.",
         "sections": [
           {
-            "title": "Squirrel with #4 or #7.5",
+            "title": "Read the cover",
             "steps": [
-              "Aim at the head and neck. Pellets in the head kill fast and leave the meat clean.",
-              "A squirrel on a trunk: aim at the head, with the trunk behind it. Pellets that miss hit wood.",
-              "A squirrel on a limb in the open: shoot only if the sky is north of you and nothing stands beyond. Shot can carry 100 yards or more.",
-              "Keep range at 20 to 35 yards. Closer is cleaner. Farther cripples."
+              "Look for thick, low cover with a sunny side: briars, pine and holly edges, brush piles.",
+              "Look for a form: a shallow oval pressed in the grass or leaves, about the size of a fist.",
+              "Look for clipped twigs cut at a clean 45 degree angle and round, dry pellets.",
+              "Look for a run: a thin, bare trail through the cover at rabbit height."
             ]
           },
           {
-            "title": "Squirrel with the .22 LR",
+            "title": "The solo push",
             "steps": [
-              "Head shot only. A body shot ruins meat and can wound.",
-              "The squirrel must have a big trunk or the ground behind it. A .22 bullet can travel over a mile.",
-              "Never shoot at a squirrel against the sky or against thin branches.",
-              "If the squirrel moves, wait. Do not swing the muzzle through anything you would not shoot."
+              "Walk the edge into the wind, 3 slow steps at a time.",
+              "At a thick clump or brush pile, kick it hard and step back.",
+              "Stand still for 30 seconds. Most rabbits sit, then bolt, then stop to look back.",
+              "When it stops, check the backstop, then shoot. If it runs south, let it go."
             ]
           },
           {
-            "title": "The 4-second backstop check",
+            "title": "Safe lines on this land",
             "steps": [
-              "Look past the animal: what stops a miss?",
-              "Look left and right: is the whole arc inside WNW to NNE?",
-              "Look at the ground: does the slope run toward you or away?",
-              "Say it quietly: trunk, ground, north, clear. Then shoot."
-            ]
-          },
-          {
-            "title": "After the shot",
-            "steps": [
-              "Keep the gun pointed north and stay seated for a slow count of 10.",
-              "Mark the fall against a trunk, stump, or fork.",
-              "Unload before you cross open ground or logs."
+              "Push so the cover lies to your N, W, or E, never to the south.",
+              "At the feed bins, shoot N or W only. The field is SE.",
+              "Unload before you cross logs or the swamp edge."
             ]
           }
         ],
         "details": [
           {
-            "title": "Why it matters in the cold",
+            "title": "Why the pause works",
             "paragraphs": [
-              "Cold fingers and thick gloves rush shots. A squirrel in sunlight stays for a minute. Waiting for a trunk behind it costs nothing."
+              "A rabbit that has been kicked loses nerve when you go quiet. The pause makes it run, and a running rabbit often stops once to check you. That stop is your shot."
             ]
           }
         ],
-        "checkpoint": "Before your first shot, run the backstop check in your head. After the hunt, send a note: about any shot you passed because the backstop was wrong."
+        "checkpoint": "Find one form or run today and note which side of the cover it faced. Send it with a note: message."
       },
       "land": {
-        "intro": "Continue Saturday's scouting: learn the land by what the squirrels leave behind.",
+        "intro": "Find where the rabbits live and how they move, using their sign.",
         "steps": [
-          "On the walk out, revisit the 2 best feed trees from Saturday, or pick new ones: biggest pile of fresh cuttings.",
-          "Pace each from the Junction. Note the tree type if you know it, and whether the pile is bigger than Saturday's.",
-          "Look at where the frost melted first. Squirrels and rabbits sit in those sunny spots.",
-          "Send what you find with a note: message, for example: note: 2 oaks, 40 and 70 paces from Junction, sun hit them at 7:10, new hulls since Saturday."
+          "On the walk out, look along the thicket edge and the loop for clipped twigs, pellets, forms, and runs.",
+          "Find the 2 thickest brush piles or clumps. Pace each from the Junction.",
+          "Note which side of the cover gets morning sun.",
+          "Send what you find with a note: message, for example: note: pellets and a form 30 paces east of the loop's north end, sunny side, run heads north."
         ]
       },
       "safety": [
         "NEVER shoot south. The house is SW and the field is SE: no-shoot directions.",
-        "Every shot today goes between WNW and NNE, with the ground or a trunk behind the animal.",
+        "Every shot today goes between WNW and NNE, with the ground or a trunk behind the animal. Sky shots at crow, dove, or quail only to the north.",
         "Hunter orange hat and vest are required (Oct 17 to Jan 1). Deer gun season and bear season are open for other hunters.",
-        "Hard stop is 9:30 am on Sunday. Be unloaded and out by 9:00.",
-        "Frost makes trails and logs slick. Unload before crossing logs or the swamp edge.",
-        "It is about 34F at walk-in. Wear layers you can open as it warms."
+        "Quail and rabbits flush close and fast. Keep the muzzle north and your finger outside the guard until the shot is sure.",
+        "Unload before crossing logs, the swamp edge, or open ground.",
+        "It is about 40F at walk-in and near 70F by afternoon. Wear layers you can open."
       ],
-      "regs": "Check seasons, bag limits, and Sunday rules in the current NCWRC Regulations Digest before you hunt.",
-      "gaps": "The National Weather Service hourly page and the sun table could not be opened tonight. Temperatures, the daily wind, rain chance, and the sunrise time came from a backup weather page, with no hourly wind, gust, or cloud figures, so the hourly chart is left out. Legal light is sunrise minus 30 minutes. Moon phase is calculated, and moonrise and moonset were not found. Bag limits were not found. Sunday rules and seasons were not re-checked tonight."
+      "regs": "Check seasons, bag limits, and migratory bird rules in the current NCWRC Regulations Digest before you hunt.",
+      "gaps": "The National Weather Service hourly page and the sun table could not be opened. Saturday figures came from backup weather pages: the low (near 40F), the high (near 70F), northeast 5 to 10 mph, 6 percent rain, and Sunday rain. No hourly temperature, wind, gust, or cloud figures were found for Saturday, so the hourly chart is left out. One page also listed a different low, so the walk-in temperature is uncertain. Sunrise, legal light, and moon phase are calculated. Moonrise and moonset were not found. Quail opening (Nov 21) is from the season dates. Dove, snipe, and crow dates and bag limits were carried from earlier checks and not re-confirmed today."
     }
   ]
 }
