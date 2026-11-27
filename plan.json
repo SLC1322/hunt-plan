@@ -1,110 +1,152 @@
 {
   "schema": 1,
-  "generated": "2026-11-26T18:13:08-05:00",
+  "generated": "2026-11-27T17:53:52-05:00",
   "hunts": [
     {
-      "date": "2026-11-27",
-      "label": "Friday, Nov 27",
-      "subtitle": "The storm has blown itself out, and every squirrel in the woods skipped yesterday's breakfast.",
+      "date": "2026-11-28",
+      "label": "Saturday, Nov 28",
+      "subtitle": "Leftovers in the fridge, sun on the pines, and the squirrels never heard it was a holiday weekend.",
       "rules": {
-        "title": "Friday after the storm",
+        "title": "Saturday, Nov 28",
         "items": [
           "**Crow is open today** (Wednesday, Friday, and Saturday only).",
-          "**Dove is open** (Nov 7 to 28, bag 15). Snipe is open. HIP registration and a 3-shell plug are required for both.",
-          "**Ducks are open** to Nov 28, but you carry lead shells. Ducks need steel or other nontoxic shot, HIP, a federal duck stamp, and the NC waterfowl privilege. Skip ducks today.",
-          "**Hunter orange is required** (deer gun season is open to Jan 1). Your deer is done, but others are out.",
-          "No clock change before this hunt. All times are Eastern Standard Time."
+          "**Dove: last day of this segment.** Open to Nov 28, bag 15. It reopens Dec 16.",
+          "**Snipe is open** (to Feb 27, bag 8). Dove and snipe need HIP registration and a 3-shell plug.",
+          "**Woodcock is CLOSED** until Dec 10. Look and learn, do not shoot.",
+          "**Ducks and geese: skip them.** You carry lead shells, and waterfowl need nontoxic shot. Rails closed Nov 25.",
+          "**Hunter orange is required** (deer gun season is open to Jan 1). Your deer is done, but others are out."
         ],
         "note": "Confirm seasons and rules in the current NCWRC Regulations Digest before you go."
       },
       "conditions": {
         "source": "National Weather Service point forecast",
         "items": [
-          "Overnight low near **44F**. An hourly walk-in temperature was not available.",
-          "9 am: no hourly figure. The day reaches about **56F**, cooler and drier than Thursday.",
-          "Wind: **SW 15 to 17 mph, gusts to about 29 mph**. Overnight SW 11 to 15, gusts near 24.",
-          "Sky and rain: **partly sunny**. NWS gives no rain chance. One backup page shows a chance of sprinkles. The ground is soaked from the storm.",
-          "Sunrise **6:56 am**. Legal light **6:26 am** (sunrise minus 30 minutes).",
-          "Moon: **waning gibbous, 82 percent**. Moonset **10:20 am**, so it is still up during the hunt. Moonrise 8:09 pm."
+          "Walk-in about **42F**, feels near 37F (backup hourly forecast). The NWS overnight low is about 39F.",
+          "9 am about **48F** (backup hourly). The day reaches about **58F**.",
+          "Wind: **W 7 to 11 mph** (NWS). The hourly backup shows **WSW 8 to 11** from 4 to 9 am. No gusts listed.",
+          "Sky and rain: **sunny and dry**. A few early clouds clear around 7. Rain chance 4 percent or less.",
+          "Sunrise **6:57 am**. Legal light **6:27 am** (sunrise minus 30 minutes).",
+          "Moon: **waning gibbous**. Still up for the whole hunt, setting late morning."
         ],
-        "meaning": "Assumption: squirrels and rabbits sat out a full day of storm, so hunger should bring a strong feed at first light, even with a bright moon. The wind builds through the morning, so the first two hours are the best. Expect squirrels low on trunks and on the ground, picking up cones and nuts the storm knocked down.",
-        "hours": [],
-        "hours_note": "The hourly table was out of date this run, so there is no 4 to 9 am chart. Figures above come from the daily forecast text."
+        "meaning": "Assumption: a cold, clear, dry morning after a bright night. Squirrels should be moving from first light and may pick up as the sun warms the treetops between 7:00 and 8:30. Rabbits likely sit tight in sunny cover out of the west wind. Snipe, if any, will be on soft mud where the storm water has pulled back.",
+        "hours": [
+          {
+            "hour": "4 am",
+            "temp": 43,
+            "wind": "WSW 9",
+            "cloud": 27
+          },
+          {
+            "hour": "5 am",
+            "temp": 42,
+            "wind": "WSW 9",
+            "cloud": 29
+          },
+          {
+            "hour": "6 am",
+            "temp": 42,
+            "wind": "WSW 9",
+            "cloud": 27
+          },
+          {
+            "hour": "7 am",
+            "temp": 42,
+            "wind": "WSW 8",
+            "cloud": 7
+          },
+          {
+            "hour": "8 am",
+            "temp": 45,
+            "wind": "WSW 9",
+            "cloud": 1
+          },
+          {
+            "hour": "9 am",
+            "temp": 48,
+            "wind": "WSW 11",
+            "cloud": 0
+          }
+        ],
+        "hours_note": "Hourly figures come from a backup weather page, not the National Weather Service, whose hourly table was out of date."
       },
       "wind": {
-        "from_deg": 225,
-        "mph": 16,
-        "label": "SW 15 to 17, gusts near 29"
+        "from_deg": 250,
+        "mph": 9,
+        "label": "WSW to W, 7 to 11"
       },
       "safe_arc": {
-        "from_deg": 285,
-        "to_deg": 15
+        "from_deg": 290,
+        "to_deg": 20
       },
       "in_season": [
         {
           "text": "**Gray squirrel** (main) and fox squirrel",
-          "tip": "Hungry after the storm. Watch the ground under pines and oaks."
+          "tip": "Steady game today. Watch feed trees, then the sunlit crowns."
         },
         {
           "text": "**Rabbit**",
-          "tip": "Pushed to dry, thick cover on high ground by the flood."
+          "tip": "Thick cover near the feed bins and trail edges."
         },
         {
-          "text": "**Crow** (open Fridays)",
-          "tip": "Watch for flight lines over the swamp. Sky shots north only."
-        },
-        {
-          "text": "**Dove** (open to Nov 28)",
-          "tip": "Opportunity only. Doves fly hard with the wind at their tails."
-        },
-        {
-          "text": "**Quail** (open since Nov 21)",
+          "text": "**Quail** (open since Nov 21, bag 6)",
           "tip": "No covey seen here yet. Bonus only."
         },
         {
           "text": "**Snipe** (open to Feb 27)",
-          "tip": "Check fresh mud where the flood water is pulling back."
+          "tip": "Walk the soft mud along the swamp."
         },
-        "Ducks are open, but skip them: you carry lead, and ducks need steel shot and stamps.",
+        {
+          "text": "**Dove** (last day until Dec 16)",
+          "tip": "North sky only, from the Junction."
+        },
+        {
+          "text": "**Crow** (open Saturdays)",
+          "tip": "Watch flight lines over the swamp."
+        },
         "Raccoon and opossum are open. Take only a sure, close shot.",
+        "Woodcock opens Dec 10. Closed today.",
         "Bear is closed until Dec 12. Bobcat is open but you do not hunt it.",
         "Deer: tag filled for the season. Do not shoot a deer."
       ],
       "plan": {
-        "title": "Dry Rise Seat, then the Junction",
-        "why": "Thursday's planned seat, used now because the flood makes it the right spot. It is the **highest dry ground in the west half of the loop, between the loop and the main trail**, under **shorter pines and holly with no dead wood overhead**. Sit against a live trunk facing **northwest**. The SW wind carries your scent off to your right and behind you, away from what you are watching. The low sun rises behind your left shoulder and lights the trunks ahead. High ground holds the rabbits the water pushed out, and the pines there drop cones squirrels need after a day without food. Later, the Junction gives you open sky to the north for a passing crow or dove. Every shot goes between WNW and NNE.",
+        "title": "Slope Top Seat, then a snipe walk",
+        "why": "A new seat **west of the Junction, at the top of the north slope**, where the ground starts to drop toward the swamp. Pick a **wide live trunk** within shotgun range of food: pine cone cuttings, holly, or an oak or hickory. Face **north-northwest, down the slope**. The ground below you makes a good backstop for low shots. The west wind comes over your left side and carries your scent right, toward the Junction side, away from what you watch. The sun rises behind your right shoulder and lights the trunks ahead. If you know a round hollow at the top of that slope, its rim is a fine landmark; sit where you can see over it. Then you move **into the wind** for a second sit, and walk the swamp edge for snipe. Every shot from the seat goes between WNW and NNE.",
         "steps": [
           {
             "time": "6:00",
-            "text": "Leave the yard on the main trail. Red light only. Gun unloaded, orange on. Look up as you walk: note storm limbs hung in the canopy and go around them."
+            "text": "Leave the yard on the main trail. Red light only. Gun unloaded, orange on. Watch overhead for limbs the storm left hanging."
           },
           {
-            "time": "6:15",
-            "text": "Reach the dry rise in the west half of the loop. Check overhead for dead wood. Sit against a live trunk facing NW. Load #4 with the plug in. Light off."
+            "time": "6:20",
+            "text": "At the Junction turn west and go 40 to 60 steps along the top of the slope. Sit against a live trunk facing NNW. Load #4, plug in. Light off."
           },
           {
-            "time": "6:26",
-            "text": "Legal light. Stay still. Scan the ground first, then trunks low to high, 20 to 40 yards out from WNW round to NNE."
+            "time": "6:27",
+            "text": "Legal light. Sit still. Scan the ground, then trunks low to high, 20 to 35 yards out."
           },
           {
-            "time": "6:56",
-            "text": "Sunrise behind your left shoulder. This is the peak feeding window. Listen for cuttings dropping and claws on bark between gusts."
+            "time": "6:57",
+            "text": "Sunrise. Watch the treetops as the sun reaches them. Look for shaking twigs and falling cuttings."
           },
           {
-            "time": "7:45",
-            "text": "Unload. Still-hunt slowly north toward the swamp: 3 steps, stop, scan. Stop at the high-water line. Look for snipe on fresh mud. Shots N only."
+            "time": "7:25",
+            "text": "If quiet for 20 minutes, unload and slip about 60 steps west, into the wind. Sit again, same facing. Reload."
           },
           {
-            "time": "8:05",
-            "text": "Walk the swamp edge east to the Junction. Stand in the open with your back to a pine. Load #4. Watch the north sky for crow and dove for 20 minutes."
+            "time": "7:50",
+            "text": "Unload and go down to the swamp edge. Load #7.5. Walk east toward the Junction with the wind at your back. Stop every few steps. Shots N over the swamp only. No woodcock."
           },
           {
-            "time": "8:30",
-            "text": "Unload. Walk back up the main trail. Kick the thickest dry cover beside it for rabbits. Kick, wait 30 seconds. Shots N, NE, or W only."
+            "time": "8:10",
+            "text": "Junction: stand with your back to a pine for 10 minutes. Watch the north sky for crow and dove."
+          },
+          {
+            "time": "8:25",
+            "text": "Unload. Take the loop trail to the feed bins. Load, then kick rabbit cover. Shots N or NW only. Never toward the field SE or house SW."
           },
           {
             "time": "8:50",
-            "text": "Unload and count shells. Walk out on the main trail, doing the land task."
+            "text": "Unload and count shells. Walk out by the loop and main trail, doing the land task."
           },
           {
             "time": "9:00",
@@ -114,56 +156,58 @@
       },
       "load": {
         "items": [
-          "**In the gun: #4** (plug in). Squirrel and rabbit to 35 yards, crow to 35 yards.",
-          "**Right pocket: #7.5** for dove, snipe, a close rabbit, or a quail flush.",
+          "**In the gun: #4** (plug in) for both seats and the feed bins. Squirrel, rabbit, and crow to 35 yards.",
+          "**Right pocket: #7.5** for the snipe walk, dove, a close rabbit, or a quail flush.",
           "**Slugs: zipped in a separate pocket.** Bear defense only.",
           "**No 00 buckshot carried.**",
           "**Choke: Modified.** Fine for everything today.",
-          "**.22 LR (optional):** head shots on a squirrel only, with a trunk or the ground certain behind it. Never at a bird in the sky.",
+          "**.22 LR (optional):** head shots on a still squirrel only, with a trunk or the ground certain behind it. Never at a bird in the sky.",
           "Pack - GRAB: gun, phone, water bottle filled, tell someone your plan and return time.",
           "Pack - CHARGE: headlamp and spare flashlight before bed.",
           "Pack - RESTOCK after the hunt: water, coffee or tea, nibble, nitrile gloves, .22 LR count, fatwood."
         ],
         "warnings": [
           "Never shoot a deer with birdshot. Not with #4, not with #7.5.",
-          "No ducks with these shells. Lead shot is illegal for waterfowl.",
-          "Check the barrel for mud before you load. Storm mud gets into a muzzle fast if you slip."
+          "No ducks or geese with these shells. Lead shot is illegal for waterfowl.",
+          "Know the bird before you shoot. A woodcock can flush from the same wet ground as a snipe, and it is closed."
         ]
       },
       "animals": [
         {
           "name": "Gray squirrel and fox squirrel",
           "paragraphs": [
-            "The most common game here. Grays work oaks, hickories, pines, and holly. A fox squirrel may show in the pines.",
-            "After a day hiding from the storm, expect them out early and hungry, often on the ground."
+            "The most common game here. Grays work pines, holly, oaks, and hickories. A fox squirrel may show in the pines.",
+            "Cold, sunny, and dry today: expect movement from first light, with more in the treetops once the sun hits them."
           ],
           "details": [
             {
               "title": "Shot and load",
               "steps": [
-                "#4 at 20 to 35 yards, head and neck on a trunk squirrel.",
-                "On the ground, shoot only with dirt behind it and nothing beyond in the line.",
-                "After the shot, wait 10 minutes. Mark the fall against two trees."
+                "#4 at 20 to 35 yards, head and neck.",
+                "Wait for it to stop with a trunk or the ground behind it.",
+                "With the .22 LR, take only a still squirrel against a trunk or the ground."
               ]
             },
             {
-              "title": "Technique: windy-morning watch",
+              "title": "Technique: sit, move, sit",
               "steps": [
-                "Wind shakes every branch, so look for movement that goes against the wind.",
-                "Watch the downwind side of trunks. Squirrels shelter there.",
-                "Look low. In wind they feed on the ground and lower limbs."
+                "Sit 20 to 30 minutes without moving.",
+                "If nothing shows, unload and creep about 60 steps into the wind.",
+                "Sit again and wait at least 15 minutes before you judge the spot.",
+                "Use your monocular on odd bumps along limbs."
               ]
             }
           ],
           "after": [
-            "Tip: wind hides your sound. Move when a gust blows, freeze when it stops.",
-            "Tip: never shoot a squirrel moving against the sky. Wait for it to stop on a trunk."
+            "Tip: look for what is level and lumpy on a limb. A resting squirrel often looks like a knot with an ear.",
+            "Tip: low sun throws shadows. A moving shadow on a trunk can show a squirrel you cannot see."
           ]
         },
         {
           "name": "Rabbit",
           "paragraphs": [
-            "Cottontails left the flooded low ground. Look in the driest thick holly, briars, and brush on the rise and beside the main trail."
+            "Cottontails use thick holly, briars, brush, and the weedy cover by the feed bins.",
+            "After a cold night, check cover that gets sun and blocks the west wind: its east and south sides."
           ],
           "details": [
             {
@@ -175,201 +219,217 @@
               ]
             },
             {
-              "title": "Technique: read the mud",
+              "title": "Technique: set the escape lane",
               "steps": [
-                "The storm washed away old sign. Every track you see now is fresh.",
-                "Follow rabbit tracks to the edge of cover and stop 10 yards short.",
-                "Kick the cover once, then wait 30 seconds before you move."
+                "Before you kick, look for the likely way out: a run or gap in the cover.",
+                "Stand so that lane leads N or NW.",
+                "Kick once, then wait 30 seconds with the gun ready.",
+                "If it runs south, let it go."
               ]
             }
           ],
           "after": [
-            "Tip: a rabbit sits with its back to the wind. Approach from downwind of the cover when you can."
-          ]
-        },
-        {
-          "name": "Crow",
-          "paragraphs": [
-            "Crows travel over the swamp to and from roosts in the morning. After a storm they move to feed early."
-          ],
-          "details": [
-            {
-              "title": "Shot and load",
-              "steps": [
-                "#4 to 35 yards. #7.5 inside 25 yards.",
-                "Shoot only birds over the north side, in open sky. Never toward the house or field.",
-                "Lead the bird: swing through from behind and keep the gun moving."
-              ]
-            },
-            {
-              "title": "Technique: flight-line stand",
-              "steps": [
-                "Stand still in the shadow of a pine at the Junction.",
-                "Watch which way the first crows travel. Others often follow the same line.",
-                "Keep your face down until a crow is in range. A bare face flashes."
-              ]
-            }
-          ],
-          "after": [
-            "Tip: crows fly low into a strong wind. Expect birds below the treetops coming from the SW."
-          ]
-        },
-        {
-          "name": "Dove",
-          "paragraphs": [
-            "Mourning doves pass over open edges and water. A bonus here, not the plan."
-          ],
-          "details": [
-            {
-              "title": "Shot and load",
-              "steps": [
-                "#7.5 is the dove load.",
-                "With the wind behind them, doves are fast. Swing through and follow through.",
-                "Sky shots to the north only."
-              ]
-            }
-          ],
-          "after": [
-            "Tip: mark a downed dove against a trunk before you walk. They vanish in wet leaves."
-          ]
-        },
-        {
-          "name": "Snipe",
-          "paragraphs": [
-            "A migratory bird of soft mud. As the flood water drops, new mud edges appear along the swamp."
-          ],
-          "details": [
-            {
-              "title": "Shot and load",
-              "steps": [
-                "#7.5, close and fast.",
-                "Let the zig-zag flight straighten, then shoot.",
-                "Shots N only, over the swamp."
-              ]
-            }
-          ],
-          "after": [
-            "Tip: a raspy call as it flushes tells you it was a snipe."
+            "Tip: check the tangled tops of any limbs the storm brought down. Fresh cover draws rabbits."
           ]
         },
         {
           "name": "Quail (bonus)",
           "paragraphs": [
-            "Northern bobwhite. No covey has been seen here. See this week's skill for where they would live."
+            "Northern bobwhite. No covey has been seen here. Look where thick brush meets weedy openings and bare dirt."
           ],
           "details": [
             {
               "title": "Shot and load",
               "steps": [
-                "#7.5 in the right pocket.",
-                "Pick ONE bird. Never shoot into the whole covey.",
-                "Shoot only birds flying N, W, or E. Let south-bound birds go."
+                "#7.5, one bird at a time.",
+                "Shoot only birds flying N, W, or E."
+              ]
+            },
+            {
+              "title": "Technique: listen after a flush",
+              "steps": [
+                "If a covey scatters, stop and stay quiet.",
+                "Listen for soft whistles as birds call to regroup.",
+                "On a cold day, leave them to get back together."
               ]
             }
           ],
           "after": [
-            "Tip: in wind, quail flush wild and early. Be ready at 25 yards, not 10."
+            "Tip: look for a tight ring of droppings on the ground. It marks a night roost."
+          ]
+        },
+        {
+          "name": "Snipe",
+          "paragraphs": [
+            "A bird of open soft mud. As Thursday's storm water drops, new mud edges may appear along the swamp. Not yet confirmed here."
+          ],
+          "details": [
+            {
+              "title": "Shot and load",
+              "steps": [
+                "#7.5, inside 30 yards.",
+                "Let the first zig-zag pass, then swing through.",
+                "Shots N only, over the swamp."
+              ]
+            },
+            {
+              "title": "Technique: wind at your back",
+              "steps": [
+                "Walk the mud edge east today.",
+                "Snipe tend to rise into the wind, which slows them for a moment.",
+                "Pause every few steps. A stop often flushes a bird that was holding."
+              ],
+              "note": "If the bird swings south, hold fire."
+            }
+          ],
+          "after": [
+            "Tip: a harsh, raspy call on the flush points to snipe."
+          ]
+        },
+        {
+          "name": "Dove",
+          "paragraphs": [
+            "Mourning doves pass over open edges and water. Today is the last day until Dec 16. A bonus, not the plan."
+          ],
+          "details": [
+            {
+              "title": "Shot and load",
+              "steps": [
+                "#7.5.",
+                "Sky shots to the north only."
+              ]
+            },
+            {
+              "title": "Technique: range markers",
+              "steps": [
+                "At the Junction, pick two trees about 30 yards out.",
+                "Shoot only birds that pass inside that distance.",
+                "Swing through and follow through."
+              ]
+            }
+          ],
+          "after": [
+            "Tip: on a cold sunny morning, doves may warm up on high bare limbs. Watch which way they leave."
+          ]
+        },
+        {
+          "name": "Crow",
+          "paragraphs": [
+            "Crows travel over the swamp in the morning. Open today."
+          ],
+          "details": [
+            {
+              "title": "Shot and load",
+              "steps": [
+                "#4 to 35 yards, #7.5 inside 25 yards.",
+                "Open sky to the north only."
+              ]
+            },
+            {
+              "title": "Call: hail caw",
+              "steps": [
+                "From pine shadow, give two long, slow caws.",
+                "Wait two full minutes and watch.",
+                "If a crow answers and turns, stop calling and hold still."
+              ]
+            }
+          ],
+          "after": [
+            "Tip: keep your face shaded under your hat brim until you decide to shoot."
           ]
         },
         {
           "name": "Raccoon and opossum",
           "paragraphs": [
-            "The flood pushed both to high ground and hollow trees. Fresh mud shows every track from last night."
+            "Both live here. At dawn one may still be walking home to a hollow tree along the swamp."
           ],
           "details": [
             {
               "title": "Shot and load",
               "steps": [
-                "#4 to the head at 20 yards or less.",
-                "Approach from behind. Opossums play dead, so check before you handle."
+                "#4 to the head at 20 yards or less, ground or trunk behind.",
+                "Confirm it is dead before you touch it. Wear gloves."
               ],
-              "note": "Wear gloves. Rabies is possible in raccoons."
+              "note": "Leave any animal that acts sick or dazed."
             }
           ],
           "after": [
-            "Tip: raccoon tracks show five long toes like a hand. Opossum hind tracks show a thumb pointing out."
+            "Tip: a den tree opening with worn bark and caught hair is likely in use. Mark it."
           ]
         },
         {
           "name": "Bear and bobcat",
           "paragraphs": [
-            "Awareness only. Bear season is closed until Dec 12. Floods move animals, so watch the high ground. Give a bear space, talk out loud, and back away. Slugs are for defense only."
+            "Awareness only. Bear season is closed until Dec 12. Give a bear space, talk out loud, and back away. Slugs are for defense only."
           ],
           "details": [],
           "after": []
         }
       ],
       "skill": {
-        "title": "Quail habitat and covey flush shooting",
-        "principle": "Quail live where three kinds of cover meet: thick brush to hide in, open weedy ground to feed in, and bare dirt to walk and dust in. No edge, no quail. A flush is a test of nerve: pick one bird.",
+        "title": "Woodcock and snipe: tell them apart, then shoot the flush",
+        "principle": "Two long-billed birds, two kinds of ground, two seasons. **Identify first.** Snipe is open today. Woodcock is closed until Dec 10 (to Jan 30, bag 3).",
         "sections": [
           {
-            "title": "Read the habitat",
+            "title": "Tell them apart",
             "steps": [
-              "Look for edges where woods meet open ground. On this land, that means the yard edge and the field SE line (look, but never shoot that way).",
-              "Look for low, thick cover a person cannot walk through: briars, young pines, vines.",
-              "Look next to it for weedy open ground with seeds, and patches of bare dirt.",
-              "Look for sign: small round dust bowls in dirt, and small droppings in a tight circle where a covey roosted.",
-              "Tall, closed pine woods with no brush under them hold few or no quail."
+              "Ground: snipe use open wet mud and grassy edges. Woodcock use damp thickets with soft soil under cover.",
+              "Shape: snipe is slim. Woodcock is plump and round with large eyes set high.",
+              "Head: snipe stripes run front to back. Woodcock bars run across the crown.",
+              "Belly: snipe is white. Woodcock is warm buff orange.",
+              "Flush: snipe zig-zags low and fast with a raspy call. Woodcock rises steeply with twittering wings."
             ]
           },
           {
-            "title": "Listen for a covey",
+            "title": "Read the sign",
             "steps": [
-              "Stand still at an edge at first light.",
-              "Listen for a loud, rising koi-lee call. Coveys call to each other before sunrise.",
-              "Point toward the sound and pace it. Log it with a note:."
+              "Look for clusters of small round probe holes in soft ground.",
+              "Look for white chalky splashes on leaves under thick cover. That points to woodcock.",
+              "Open mud with probe holes and thin three-toed tracks points to snipe."
             ]
           },
           {
             "title": "Shoot the flush",
             "steps": [
-              "Walk toward the cover with the gun at port arms, muzzle up.",
-              "When the covey bursts out, do not shoot at the group. The group is mostly air.",
-              "Pick ONE bird that is flying N, W, or E.",
-              "Mount, swing through the bird, fire, and keep the gun moving.",
-              "Mark where the other birds land. Singles hold tight for a second flush."
-            ]
-          },
-          {
-            "title": "After the shot",
-            "steps": [
-              "Mark the fall against a tree or bush and walk straight to it.",
-              "Bag only what you need. Leave at least 8 birds in a covey so it survives the winter.",
-              "Unload before you cross any brush or fence."
+              "Carry at port arms, muzzle up, safety on. Know your N shooting lane before each step.",
+              "Walk a few steps, then stop for 5 to 10 seconds.",
+              "When a bird rises, look for color, shape, and flight. If unsure, do not shoot.",
+              "Snipe: mount smoothly and shoot as the zig-zag straightens.",
+              "From Dec 10, woodcock: shoot as it tops out its climb and begins to level.",
+              "Mark the fall against a stump or tree and walk straight to it."
             ]
           }
         ],
         "details": [
           {
-            "title": "Why the covey matters",
+            "title": "Why the pause works",
             "paragraphs": [
-              "Quail survive cold nights by roosting in a tight ring, tails in, heads out. A covey shot down to a few birds can freeze. Good quail hunters hunt a covey once and leave it."
+              "A holding bird trusts its camouflage while you keep walking. When the steps stop, it often decides it has been seen and flies. Stopping also puts your feet where you can shoot from."
             ]
           }
         ],
-        "checkpoint": "On your walk out, find the one spot on the land where thick cover, open weeds, and bare dirt come closest together. Pace it from the Junction and send a note: with what you see."
+        "checkpoint": "After the swamp walk, say which bird each patch of ground suits: open mud for snipe, damp thicket for woodcock. Log both with a note:."
       },
       "land": {
-        "intro": "The storm reset the woods. Every track in the mud is fresh, and the flood showed where water goes.",
+        "intro": "Map the ground for the Dec 10 woodcock opener while you hunt snipe.",
         "steps": [
-          "Find the high-water line at the swamp edge: a band of floating leaves and sticks. Pace it from the Junction.",
-          "Note any trail that went under water, and where.",
-          "Count new blowdowns and hung-up limbs over the main trail and the loop. Strike any unsafe sit tree from your list.",
-          "Note fresh tracks in the new mud: squirrel, rabbit, raccoon, opossum. Note which way each heads.",
-          "Send what you find with a note: message, for example: note: water rose 40 paces south of the Junction, 2 pines down on the loop, coon tracks heading to the rise."
+          "On the swamp walk, mark any open mud with probe holes. Pace it from the Junction.",
+          "On the walk out, find one damp, thick patch with soft soil. Look for probe holes and white splashes.",
+          "Note any squirrel den hole or leaf nest you saw from the slope seat.",
+          "Send it with a note: message, for example: note: probe holes 30 paces W of the Junction, damp holly patch on the loop, 2 leaf nests by the slope seat."
         ]
       },
       "safety": [
         "NEVER shoot south. The house is SW and the field is SE: no-shoot directions.",
-        "Every shot today goes between WNW and NNE, with the ground or a trunk behind the animal.",
+        "From both slope seats, shoot only between WNW and NNE, with the ground or a trunk behind the animal.",
+        "At the feed bins, shoot N or NW only. If the line leans toward the house, hold fire.",
         "Sky shots at crow and dove only to the north, over the swamp.",
-        "Gusts near 29 mph can drop limbs the storm cracked. Never sit or walk under hung-up limbs or dead trees.",
-        "The swamp edge may still be flooded. Water hides holes, stumps, and cypress knees. Unload before you cross wet ground or logs.",
-        "Hunter orange hat and vest are required (Oct 17 to Jan 1). Deer gun season is still open for other hunters."
+        "Hunter orange hat and vest are required (Oct 17 to Jan 1). Deer gun season is still open for other hunters.",
+        "The slope and swamp edge may still be wet and slick from Thursday's storm. Unload before you go down the slope or cross logs.",
+        "Feels near 37F. Keep hands warm enough to work the safety. Watch for hung limbs overhead."
       ],
       "regs": "Check seasons, bag limits, and the crow, dove, and snipe rules in the current NCWRC Regulations Digest before you hunt.",
-      "gaps": "The NWS forecast used was issued Wednesday afternoon. A newer update was not available. The hourly table was out of date (October data), so there are no hourly temperature, wind, cloud, or humidity figures and no hourly chart. The walk-in and 9 am temperatures are not known. NWS gives no rain chance for Friday, but one backup page shows a 43 percent chance of sprinkles."
+      "gaps": "The NWS hourly table was out of date (October data), so the hourly chart, walk-in and 9 am temperatures come from a backup weather page. It shows a high of 61F and WSW wind; NWS shows 58F and W. Neither lists gusts for the morning. The usual sunrise page could not be opened. The sunrise time is from the backup page, which also shows 6:56. That page gives conflicting moon figures: 73 and 83 percent lit, and moonset 10:20 or 11:05 am. Goose zone dates for this land were not confirmed."
     }
   ]
 }
